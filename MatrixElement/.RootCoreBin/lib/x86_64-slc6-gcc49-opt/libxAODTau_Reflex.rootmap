@@ -1,0 +1,95 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class TauJet_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+namespace xAOD { class TauJet_v2; }
+template <typename T, typename BASE> class DataVector;
+template <typename STORABLE> class ElementLink;
+namespace xAOD { class DiTauJet_v1; }
+template <typename STORABLE> class DataLink;
+
+[ libxAODTau_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::DiTauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::DiTauJet_v1> >
+class DataLink<DataVector<xAOD::TauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::TauJet_v1> >
+class DataLink<DataVector<xAOD::TauJet_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::TauJet_v2> >
+class DataLink<xAOD::DiTauJetContainer_v1>
+class DataLink<xAOD::TauJetContainer_v1>
+class DataLink<xAOD::TauJetContainer_v2>
+class DataVector<xAOD::DiTauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::DiTauJet_v1>
+class DataVector<xAOD::TauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::TauJet_v1>
+class DataVector<xAOD::TauJet_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::TauJet_v2>
+class ElementLink<DataVector<xAOD::DiTauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::DiTauJet_v1> >
+class ElementLink<DataVector<xAOD::TauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::TauJet_v1> >
+class ElementLink<DataVector<xAOD::TauJet_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::TauJet_v2> >
+class ElementLink<xAOD::DiTauJetContainer_v1>
+class ElementLink<xAOD::TauJetContainer_v1>
+class ElementLink<xAOD::TauJetContainer_v2>
+class vector<DataLink<DataVector<xAOD::DiTauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::DiTauJet_v1> > >
+class vector<DataLink<DataVector<xAOD::TauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::TauJet_v1> > >
+class vector<DataLink<DataVector<xAOD::TauJet_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::TauJet_v2> > >
+class vector<DataLink<xAOD::DiTauJetContainer_v1> >
+class vector<DataLink<xAOD::TauJetContainer_v1> >
+class vector<DataLink<xAOD::TauJetContainer_v2> >
+class vector<ElementLink<DataVector<xAOD::DiTauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::DiTauJet_v1> > >
+class vector<ElementLink<DataVector<xAOD::TauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::TauJet_v1> > >
+class vector<ElementLink<DataVector<xAOD::TauJet_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::TauJet_v2> > >
+class vector<ElementLink<xAOD::DiTauJetContainer_v1> >
+class vector<ElementLink<xAOD::TauJetContainer_v1> >
+class vector<ElementLink<xAOD::TauJetContainer_v2> >
+class vector<std::vector<ElementLink<xAOD::DiTauJetContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TauJetContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TauJetContainer_v2> > >
+class vector<vector<ElementLink<DataVector<xAOD::DiTauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::DiTauJet_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TauJet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::TauJet_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TauJet_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::TauJet_v2> > > >
+class xAOD::DiTauJetAuxContainer_v1
+class xAOD::DiTauJetContainer_v1
+class xAOD::DiTauJet_v1
+class xAOD::TauJetAuxContainer_v1
+class xAOD::TauJetAuxContainer_v2
+class xAOD::TauJetContainer_v1
+class xAOD::TauJetContainer_v2
+class xAOD::TauJet_v1
+class xAOD::TauJet_v2
+header xAODTau/versions/DiTauJetAuxContainer_v1.h
+header xAODTau/versions/DiTauJet_v1.h
+header xAODTau/versions/TauJetAuxContainer_v1.h
+header xAODTau/versions/TauJetAuxContainer_v2.h
+header xAODTau/versions/TauJet_v1.h
+header xAODTau/versions/TauJet_v2.h
+# List of selected typedefs and outer classes
+# List of selected enums and outer classes
+enum xAOD::TauJetParameters::Author
+enum xAOD::TauJetParameters::TauID
+enum xAOD::TauJetParameters::VetoFlags
+enum xAOD::TauJetParameters::IsTauFlag
+enum xAOD::TauJetParameters::Detail
+enum xAOD::TauJetParameters::SeedTypes
+enum xAOD::TauJetParameters::TauCalibType
+enum xAOD::TauJetParameters::TauHLVType
+enum xAOD::TauJetParameters::PanTauDetails
+enum xAOD::TauJetParameters::PanTau_Constituents
+enum xAOD::TauJetParameters::DecayMode
+enum xAOD::TauJetParameters::TauTrackFlag
+enum xAOD::DiTauJetParameters::Detail

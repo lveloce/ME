@@ -1,0 +1,20 @@
+{ decls }
+namespace JER {  }
+
+[ libJetResolution_Reflex.so ]
+# List of selected classes
+class IJERSmearingTool
+class IJERTool
+class JER::ROOT6_OpenNamespaceWorkaround
+class JERSmearingTool
+class JERTool
+header JetResolution/IJERSmearingTool.h
+header JetResolution/IJERTool.h
+header JetResolution/JERDefs.h
+header JetResolution/JERSmearingTool.h
+header JetResolution/JERTool.h
+# List of selected namespaces
+namespace JER
+# List of selected enums and outer classes
+enum JER::JetAlg
+enum JER::Uncert

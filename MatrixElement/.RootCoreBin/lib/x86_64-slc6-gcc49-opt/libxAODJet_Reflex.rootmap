@@ -1,0 +1,52 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class Jet_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+template <typename T, typename BASE> class DataVector;
+
+[ libxAODJet_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::Jet_v1> >
+class DataLink<xAOD::JetContainer_v1>
+class DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::Jet_v1>
+class ElementLink<DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::Jet_v1> >
+class ElementLink<xAOD::JetContainer_v1>
+class ElementLinkVector<DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLinkVector<DataVector<xAOD::Jet_v1> >
+class ElementLinkVector<xAOD::JetContainer_v1>
+class pair<std::string,std::vector<const xAOD::IParticle*> >
+class pair<std::string,std::vector<float> >
+class pair<std::string,std::vector<std::vector<float> > >
+class pair<std::string,std::vector<std::vector<int> > >
+class pair<string,vector<const xAOD::IParticle*> >
+class pair<string,vector<float> >
+class pair<string,vector<vector<float> > >
+class pair<string,vector<vector<int> > >
+class pair<string,vector<xAOD::IParticle const*> >
+class vector<DataLink<DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::Jet_v1> > >
+class vector<DataLink<xAOD::JetContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::Jet_v1> > >
+class vector<ElementLink<xAOD::JetContainer_v1> >
+class vector<ElementLinkVector<DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLinkVector<DataVector<xAOD::Jet_v1> > >
+class vector<ElementLinkVector<xAOD::JetContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::JetContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::Jet_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::Jet_v1> > > >
+class xAOD::JetAttribute
+class xAOD::JetAuxContainer_v1
+class xAOD::JetContainer_v1
+class xAOD::JetTrigAuxContainer_v1
+class xAOD::Jet_v1
+header xAODJet/JetAttributes.h
+header xAODJet/versions/JetAuxContainer_v1.h
+header xAODJet/versions/JetTrigAuxContainer_v1.h
+header xAODJet/versions/Jet_v1.h
+# List of selected typedefs and outer classes

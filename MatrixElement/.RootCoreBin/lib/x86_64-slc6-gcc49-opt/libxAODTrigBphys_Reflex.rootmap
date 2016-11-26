@@ -1,0 +1,32 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class TrigBphys_v1; }
+namespace DataModel_detail { class NoBase; }
+namespace std {  }
+template <typename T, typename BASE> class DataVector;
+
+[ libxAODTrigBphys_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::TrigBphys_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::TrigBphys_v1> >
+class DataLink<xAOD::TrigBphysContainer_v1>
+class DataVector<xAOD::TrigBphys_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigBphys_v1>
+class ElementLink<DataVector<xAOD::TrigBphys_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TrigBphys_v1> >
+class ElementLink<xAOD::TrigBphysContainer_v1>
+class vector<DataLink<DataVector<xAOD::TrigBphys_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::TrigBphys_v1> > >
+class vector<DataLink<xAOD::TrigBphysContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::TrigBphys_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TrigBphys_v1> > >
+class vector<ElementLink<xAOD::TrigBphysContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::TrigBphysContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigBphys_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigBphys_v1> > > >
+class xAOD::TrigBphysAuxContainer_v1
+class xAOD::TrigBphysContainer_v1
+class xAOD::TrigBphys_v1
+header xAODTrigBphys/versions/TrigBphysAuxContainer_v1.h
+header xAODTrigBphys/versions/TrigBphys_v1.h
+# List of selected typedefs and outer classes

@@ -1,0 +1,59 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class TrigRingerRings_v1; }
+namespace xAOD { class TrigRingerRings_v2; }
+namespace DataModel_detail { class NoBase; }
+namespace std {  }
+namespace xAOD { class TrigRNNOutput_v1; }
+namespace xAOD { class TrigRNNOutput_v2; }
+template <typename T, typename BASE> class DataVector;
+
+[ libxAODTrigRinger_Reflex.so ]
+# List of selected classes
+class DataVector<xAOD::TrigRNNOutput_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigRNNOutput_v1>
+class DataVector<xAOD::TrigRNNOutput_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigRNNOutput_v2>
+class DataVector<xAOD::TrigRingerRings_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigRingerRings_v1>
+class DataVector<xAOD::TrigRingerRings_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigRingerRings_v2>
+class ElementLink<DataVector<xAOD::TrigRNNOutput_v2,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TrigRNNOutput_v2> >
+class ElementLink<DataVector<xAOD::TrigRingerRings_v2,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TrigRingerRings_v2> >
+class ElementLink<xAOD::TrigRNNOutputContainer_v2>
+class ElementLink<xAOD::TrigRingerRingsContainer_v2>
+class vector<ElementLink<DataVector<xAOD::TrigRNNOutput_v2,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TrigRNNOutput_v2> > >
+class vector<ElementLink<DataVector<xAOD::TrigRingerRings_v2,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TrigRingerRings_v2> > >
+class vector<ElementLink<xAOD::TrigRNNOutputContainer_v2> >
+class vector<ElementLink<xAOD::TrigRingerRingsContainer_v2> >
+class vector<std::vector<ElementLink<xAOD::TrigRNNOutputContainer_v2> > >
+class vector<std::vector<ElementLink<xAOD::TrigRingerRingsContainer_v2> > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigRNNOutput_v2,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigRNNOutput_v2> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigRingerRings_v2,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigRingerRings_v2> > > >
+class xAOD::TrigRNNOutputAuxContainer_v1
+class xAOD::TrigRNNOutputAuxContainer_v2
+class xAOD::TrigRNNOutputContainer_v1
+class xAOD::TrigRNNOutputContainer_v2
+class xAOD::TrigRNNOutput_v1
+class xAOD::TrigRNNOutput_v2
+class xAOD::TrigRingerRingsAuxContainer_v1
+class xAOD::TrigRingerRingsAuxContainer_v2
+class xAOD::TrigRingerRingsContainer_v1
+class xAOD::TrigRingerRingsContainer_v2
+class xAOD::TrigRingerRings_v1
+class xAOD::TrigRingerRings_v2
+header xAODTrigRinger/versions/TrigRNNOutputAuxContainer_v1.h
+header xAODTrigRinger/versions/TrigRNNOutputAuxContainer_v2.h
+header xAODTrigRinger/versions/TrigRNNOutput_v1.h
+header xAODTrigRinger/versions/TrigRNNOutput_v2.h
+header xAODTrigRinger/versions/TrigRingerRingsAuxContainer_v1.h
+header xAODTrigRinger/versions/TrigRingerRingsAuxContainer_v2.h
+header xAODTrigRinger/versions/TrigRingerRings_v1.h
+header xAODTrigRinger/versions/TrigRingerRings_v2.h
+# List of selected typedefs and outer classes

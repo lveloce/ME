@@ -1,0 +1,4 @@
+[ libJetUncertainties_Reflex.so ]
+# List of selected classes
+class JetUncertaintiesTool
+header JetUncertainties/JetUncertaintiesTool.h

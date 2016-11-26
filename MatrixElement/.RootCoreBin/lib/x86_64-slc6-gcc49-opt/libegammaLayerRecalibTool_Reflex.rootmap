@@ -1,0 +1,4 @@
+[ libegammaLayerRecalibTool_Reflex.so ]
+# List of selected classes
+class egammaLayerRecalibTool
+header egammaLayerRecalibTool/egammaLayerRecalibTool.h

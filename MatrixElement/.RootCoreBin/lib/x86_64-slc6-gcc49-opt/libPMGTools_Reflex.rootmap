@@ -1,0 +1,4 @@
+[ libPMGTools_Reflex.so ]
+# List of selected classes
+class PMGSherpa22VJetsWeightTool
+header PMGTools/PMGSherpa22VJetsWeightTool.h

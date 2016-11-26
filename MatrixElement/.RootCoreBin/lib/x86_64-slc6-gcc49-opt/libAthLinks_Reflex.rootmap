@@ -1,0 +1,8 @@
+[ libAthLinks_Reflex.so ]
+# List of selected classes
+class DataLinkBase
+class ElementLinkBase
+class ElementLinkVectorBase
+header AthLinks/DataLinkBase.h
+header AthLinks/ElementLinkBase.h
+header AthLinks/ElementLinkVectorBase.h

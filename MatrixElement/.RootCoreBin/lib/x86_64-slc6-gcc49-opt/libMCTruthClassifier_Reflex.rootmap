@@ -1,0 +1,17 @@
+{ decls }
+namespace MCTruthPartClassifier {  }
+namespace std {  }
+
+[ libMCTruthClassifier_Reflex.so ]
+# List of selected classes
+class IMCTruthClassifier
+class MCTruthClassifier
+class MCTruthPartClassifier::ParticleDef
+class pair<MCTruthPartClassifier::ParticleType,MCTruthPartClassifier::ParticleOrigin>
+header MCTruthClassifier/IMCTruthClassifier.h
+header MCTruthClassifier/MCTruthClassifier.h
+header MCTruthClassifier/MCTruthClassifierDefs.h
+# List of selected enums and outer classes
+enum MCTruthPartClassifier::ParticleType
+enum MCTruthPartClassifier::ParticleOrigin
+enum MCTruthPartClassifier::ParticleOutCome

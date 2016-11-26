@@ -1,0 +1,4 @@
+[ libElectronPhotonShowerShapeFudgeTool_Reflex.so ]
+# List of selected classes
+class ElectronPhotonShowerShapeFudgeTool
+header ElectronPhotonShowerShapeFudgeTool/ElectronPhotonShowerShapeFudgeTool.h

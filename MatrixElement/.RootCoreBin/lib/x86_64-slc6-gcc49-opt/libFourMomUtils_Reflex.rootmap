@@ -1,0 +1,7 @@
+{ decls }
+namespace xAOD { namespace Helpers {  } }
+
+[ libFourMomUtils_Reflex.so ]
+# List of selected classes
+class xAOD::Helpers::_importHelper
+header FourMomUtils/xAODHelpers.h

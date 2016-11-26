@@ -1,0 +1,10 @@
+{ decls }
+class IGoodRunsListSelectionTool;
+
+[ libGoodRunsLists_Reflex.so ]
+# List of selected classes
+class GoodRunsListSelectionTool
+class IGoodRunsListSelectionTool
+class ToolHandle<IGoodRunsListSelectionTool>
+header GoodRunsLists/GoodRunsListSelectionTool.h
+header GoodRunsLists/IGoodRunsListSelectionTool.h

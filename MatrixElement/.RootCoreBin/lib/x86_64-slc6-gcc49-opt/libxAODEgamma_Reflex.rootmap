@@ -1,0 +1,114 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class Egamma_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+template <typename T, typename BASE> class DataVector;
+namespace xAOD { class Electron_v1; }
+template <typename STORABLE> class DataLink;
+template <typename STORABLE> class ElementLink;
+template <typename CONTAINER> class ElementLinkVector;
+namespace xAOD { class Photon_v1; }
+namespace xAOD { namespace EgammaParameters {  } }
+
+[ libxAODEgamma_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::Egamma_v1> >
+class DataLink<DataVector<xAOD::Electron_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class DataLink<DataVector<xAOD::Electron_v1> >
+class DataLink<DataVector<xAOD::Photon_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class DataLink<DataVector<xAOD::Photon_v1> >
+class DataLink<xAOD::EgammaContainer_v1>
+class DataLink<xAOD::ElectronContainer_v1>
+class DataLink<xAOD::PhotonContainer_v1>
+class DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::Egamma_v1>
+class DataVector<xAOD::Electron_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataVector<xAOD::Electron_v1>
+class DataVector<xAOD::Photon_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataVector<xAOD::Photon_v1>
+class ElementLink<DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::Egamma_v1> >
+class ElementLink<DataVector<xAOD::Electron_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class ElementLink<DataVector<xAOD::Electron_v1> >
+class ElementLink<DataVector<xAOD::Photon_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class ElementLink<DataVector<xAOD::Photon_v1> >
+class ElementLink<xAOD::EgammaContainer_v1>
+class ElementLink<xAOD::ElectronContainer_v1>
+class ElementLink<xAOD::PhotonContainer_v1>
+class ElementLinkVector<DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLinkVector<DataVector<xAOD::Egamma_v1> >
+class ElementLinkVector<DataVector<xAOD::Electron_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class ElementLinkVector<DataVector<xAOD::Electron_v1> >
+class ElementLinkVector<DataVector<xAOD::Photon_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class ElementLinkVector<DataVector<xAOD::Photon_v1> >
+class ElementLinkVector<xAOD::EgammaContainer_v1>
+class ElementLinkVector<xAOD::ElectronContainer_v1>
+class ElementLinkVector<xAOD::PhotonContainer_v1>
+class set<const xAOD::TrackParticle*>
+class set<const xAOD::TrackParticle_v1*>
+class set<xAOD::TrackParticle_v1 const*>
+class vector<DataLink<DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::Egamma_v1> > >
+class vector<DataLink<DataVector<xAOD::Electron_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<DataLink<DataVector<xAOD::Electron_v1> > >
+class vector<DataLink<DataVector<xAOD::Photon_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<DataLink<DataVector<xAOD::Photon_v1> > >
+class vector<DataLink<xAOD::EgammaContainer_v1> >
+class vector<DataLink<xAOD::ElectronContainer_v1> >
+class vector<DataLink<xAOD::PhotonContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::Egamma_v1> > >
+class vector<ElementLink<DataVector<xAOD::Electron_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<ElementLink<DataVector<xAOD::Electron_v1> > >
+class vector<ElementLink<DataVector<xAOD::Photon_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<ElementLink<DataVector<xAOD::Photon_v1> > >
+class vector<ElementLink<xAOD::EgammaContainer_v1> >
+class vector<ElementLink<xAOD::ElectronContainer_v1> >
+class vector<ElementLink<xAOD::PhotonContainer_v1> >
+class vector<ElementLinkVector<DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLinkVector<DataVector<xAOD::Egamma_v1> > >
+class vector<ElementLinkVector<DataVector<xAOD::Electron_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<ElementLinkVector<DataVector<xAOD::Electron_v1> > >
+class vector<ElementLinkVector<DataVector<xAOD::Photon_v1,DataVector<xAOD::Egamma_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<ElementLinkVector<DataVector<xAOD::Photon_v1> > >
+class vector<ElementLinkVector<xAOD::EgammaContainer_v1> >
+class vector<ElementLinkVector<xAOD::ElectronContainer_v1> >
+class vector<ElementLinkVector<xAOD::PhotonContainer_v1> >
+class xAOD::EgammaAuxContainer_v1
+class xAOD::EgammaContainer_v1
+class xAOD::EgammaParameters::ROOT6_NamespaceAutoloadHook
+class xAOD::Egamma_v1
+class xAOD::ElectronAuxContainer_v1
+class xAOD::ElectronAuxContainer_v2
+class xAOD::ElectronAuxContainer_v3
+class xAOD::ElectronContainer_v1
+class xAOD::Electron_v1
+class xAOD::PhotonAuxContainer_v1
+class xAOD::PhotonAuxContainer_v2
+class xAOD::PhotonAuxContainer_v3
+class xAOD::PhotonContainer_v1
+class xAOD::Photon_v1
+header xAODEgamma/versions/EgammaAuxContainer_v1.h
+header xAODEgamma/EgammaDefs.h
+header xAODEgamma/versions/Egamma_v1.h
+header xAODEgamma/versions/ElectronAuxContainer_v1.h
+header xAODEgamma/versions/ElectronAuxContainer_v2.h
+header xAODEgamma/versions/ElectronAuxContainer_v3.h
+header xAODEgamma/versions/Electron_v1.h
+header xAODEgamma/versions/PhotonAuxContainer_v1.h
+header xAODEgamma/versions/PhotonAuxContainer_v2.h
+header xAODEgamma/versions/PhotonAuxContainer_v3.h
+header xAODEgamma/versions/Photon_v1.h
+# List of selected typedefs and outer classes
+# List of selected enums and outer classes
+enum xAOD::EgammaParameters::BitDefOQ
+enum xAOD::EgammaParameters::EgammaType
+enum xAOD::EgammaParameters::ShowerShapeType
+enum xAOD::EgammaParameters::TrackCaloMatchType
+enum xAOD::EgammaParameters::VertexCaloMatchType
+enum xAOD::EgammaParameters::SelectionMenu
+enum xAOD::EgammaParameters::SelectionisEM
+enum xAOD::EgammaParameters::ConversionType

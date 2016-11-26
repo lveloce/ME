@@ -1,0 +1,24 @@
+{ decls }
+namespace CP {  }
+namespace std {  }
+
+[ libPhotonVertexSelection_Reflex.so ]
+# List of selected classes
+class CP::ElectronRemovalTool
+class CP::IElectronRemovalTool
+class CP::IPhotonPointingTool
+class CP::IPhotonVertexSelectionTool
+class CP::PhotonPointingTool
+class CP::PhotonVertexSelectionTool
+class pair<const xAOD::Vertex*,float>
+class pair<const xAOD::Vertex_v1*,float>
+class pair<xAOD::Vertex_v1 const*,float>
+class vector<pair<const xAOD::Vertex_v1*,float> >
+class vector<pair<xAOD::Vertex_v1 const*,float> >
+class vector<std::pair<const xAOD::Vertex*,float> >
+header PhotonVertexSelection/ElectronRemovalTool.h
+header PhotonVertexSelection/IElectronRemovalTool.h
+header PhotonVertexSelection/IPhotonPointingTool.h
+header PhotonVertexSelection/IPhotonVertexSelectionTool.h
+header PhotonVertexSelection/PhotonPointingTool.h
+header PhotonVertexSelection/PhotonVertexSelectionTool.h

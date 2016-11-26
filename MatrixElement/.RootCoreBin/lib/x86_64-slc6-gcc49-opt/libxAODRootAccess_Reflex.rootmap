@@ -1,0 +1,19 @@
+{ decls }
+namespace xAOD {  }
+
+[ libxAODRootAccess_Reflex.so ]
+# List of selected classes
+class xAOD::TActiveStore
+class xAOD::TEvent
+class xAOD::TPyEvent
+class xAOD::TPyStore
+class xAOD::TStore
+class xAOD::TTreeMgr
+class xAOD::TVirtualManager
+header xAODRootAccess/TActiveStore.h
+header xAODRootAccess/TEvent.h
+header xAODRootAccess/TPyEvent.h
+header xAODRootAccess/TPyStore.h
+header xAODRootAccess/TStore.h
+header xAODRootAccess/TTreeMgr.h
+header xAODRootAccess/tools/TVirtualManager.h

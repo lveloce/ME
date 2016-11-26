@@ -1,0 +1,40 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+template <typename T, typename BASE> class DataVector;
+template <typename CONTAINER> class ElementLinkVector;
+
+[ libxAODBase_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::IParticle> >
+class DataLink<xAOD::IParticleContainer>
+class DataVector<xAOD::IParticle,DataModel_detail::NoBase>
+class DataVector<xAOD::IParticle>
+class ElementLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::IParticle> >
+class ElementLink<xAOD::IParticleContainer>
+class ElementLinkVector<DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class ElementLinkVector<DataVector<xAOD::IParticle> >
+class ElementLinkVector<xAOD::IParticleContainer>
+class vector<DataLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::IParticle> > >
+class vector<DataLink<xAOD::IParticleContainer> >
+class vector<ElementLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::IParticle> > >
+class vector<ElementLink<xAOD::IParticleContainer> >
+class vector<ElementLinkVector<DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class vector<ElementLinkVector<DataVector<xAOD::IParticle> > >
+class vector<ElementLinkVector<xAOD::IParticleContainer> >
+class vector<std::vector<ElementLink<xAOD::IParticleContainer> > >
+class vector<vector<ElementLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::IParticle> > > >
+class vector<xAOD::IParticle*>
+class xAOD::IParticle
+class xAOD::IParticleContainer
+header xAODBase/IParticle.h
+# List of selected typedefs and outer classes
+# List of selected enums and outer classes
+enum xAOD::Type::ObjectType

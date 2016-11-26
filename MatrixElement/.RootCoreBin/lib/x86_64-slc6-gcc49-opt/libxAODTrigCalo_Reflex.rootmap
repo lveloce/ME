@@ -1,0 +1,47 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class TrigCaloCluster_v1; }
+namespace DataModel_detail { class NoBase; }
+namespace std {  }
+namespace xAOD { class TrigEMCluster_v1; }
+template <typename T, typename BASE> class DataVector;
+
+[ libxAODTrigCalo_Reflex.so ]
+# List of selected classes
+class DataVector<xAOD::TrigCaloCluster_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigCaloCluster_v1>
+class DataVector<xAOD::TrigEMCluster_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigEMCluster_v1>
+class ElementLink<DataVector<xAOD::TrigCaloCluster_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TrigCaloCluster_v1> >
+class ElementLink<DataVector<xAOD::TrigEMCluster_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TrigEMCluster_v1> >
+class ElementLink<xAOD::TrigCaloClusterContainer_v1>
+class ElementLink<xAOD::TrigEMClusterContainer_v1>
+class vector<ElementLink<DataVector<xAOD::TrigCaloCluster_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TrigCaloCluster_v1> > >
+class vector<ElementLink<DataVector<xAOD::TrigEMCluster_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TrigEMCluster_v1> > >
+class vector<ElementLink<xAOD::TrigCaloClusterContainer_v1> >
+class vector<ElementLink<xAOD::TrigEMClusterContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::TrigCaloClusterContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TrigEMClusterContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigCaloCluster_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigCaloCluster_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigEMCluster_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigEMCluster_v1> > > >
+class xAOD::CaloClusterTrigAuxContainer_v1
+class xAOD::TrigCaloClusterAuxContainer_v1
+class xAOD::TrigCaloClusterContainer_v1
+class xAOD::TrigCaloCluster_v1
+class xAOD::TrigEMClusterAuxContainer_v1
+class xAOD::TrigEMClusterAuxContainer_v2
+class xAOD::TrigEMClusterContainer_v1
+class xAOD::TrigEMCluster_v1
+header xAODTrigCalo/versions/CaloClusterTrigAuxContainer_v1.h
+header xAODTrigCalo/versions/TrigCaloClusterAuxContainer_v1.h
+header xAODTrigCalo/versions/TrigCaloCluster_v1.h
+header xAODTrigCalo/versions/TrigEMClusterAuxContainer_v1.h
+header xAODTrigCalo/versions/TrigEMClusterAuxContainer_v2.h
+header xAODTrigCalo/versions/TrigEMCluster_v1.h
+# List of selected typedefs and outer classes

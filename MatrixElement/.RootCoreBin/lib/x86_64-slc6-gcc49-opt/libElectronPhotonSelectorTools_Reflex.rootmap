@@ -1,0 +1,40 @@
+{ decls }
+namespace egammaPID {  }
+namespace LikeEnum {  }
+
+[ libElectronPhotonSelectorTools_Reflex.so ]
+# List of selected classes
+class AsgElectronIsEMSelector
+class AsgElectronLikelihoodTool
+class AsgElectronMultiLeptonSelector
+class AsgForwardElectronIsEMSelector
+class AsgPhotonIsEMSelector
+class EGammaAmbiguityTool
+class IAsgElectronIsEMSelector
+class IAsgElectronLikelihoodTool
+class IAsgElectronMultiLeptonSelector
+class IAsgForwardElectronIsEMSelector
+class IAsgPhotonIsEMSelector
+class IEGammaAmbiguityTool
+class LikeEnum::ROOT6_NamespaceAutoloadHook
+class egammaPID::ROOT6_NamespaceAutoloadHook
+header ElectronPhotonSelectorTools/AsgElectronIsEMSelector.h
+header ElectronPhotonSelectorTools/AsgElectronLikelihoodTool.h
+header ElectronPhotonSelectorTools/AsgElectronMultiLeptonSelector.h
+header ElectronPhotonSelectorTools/AsgForwardElectronIsEMSelector.h
+header ElectronPhotonSelectorTools/AsgPhotonIsEMSelector.h
+header ElectronPhotonSelectorTools/EGammaAmbiguityTool.h
+header ElectronPhotonSelectorTools/IAsgElectronIsEMSelector.h
+header ElectronPhotonSelectorTools/IAsgElectronLikelihoodTool.h
+header ElectronPhotonSelectorTools/IAsgElectronMultiLeptonSelector.h
+header ElectronPhotonSelectorTools/IAsgForwardElectronIsEMSelector.h
+header ElectronPhotonSelectorTools/IAsgPhotonIsEMSelector.h
+header ElectronPhotonSelectorTools/IEGammaAmbiguityTool.h
+header ElectronPhotonSelectorTools/LikelihoodEnums.h
+header ElectronPhotonSelectorTools/egammaPIDdefs.h
+# List of selected enums and outer classes
+enum egammaPID::egammaIDQuality
+enum egammaPID::BitDefElectron
+enum egammaPID::BitDefPhoton
+enum egammaPID::BitDefForwardElectron
+enum LikeEnum::Menu

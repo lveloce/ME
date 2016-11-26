@@ -1,0 +1,11 @@
+{ decls }
+namespace TrigConf {  }
+
+[ libTrigConfInterfaces_Reflex.so ]
+# List of selected classes
+class TrigConf::IIHLTConfigSvc
+class TrigConf::IILVL1ConfigSvc
+class TrigConf::ITrigConfigTool
+header TrigConfInterfaces/IIHLTConfigSvc.h
+header TrigConfInterfaces/IILVL1ConfigSvc.h
+header TrigConfInterfaces/ITrigConfigTool.h

@@ -1,0 +1,40 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class LumiBlockRange_v1; }
+namespace xAOD { class BCMRawData_v1; }
+namespace DataModel_detail { class NoBase; }
+namespace std {  }
+template <typename T, typename BASE> class DataVector;
+
+[ libxAODLuminosity_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::BCMRawData_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::BCMRawData_v1> >
+class DataLink<xAOD::BCMRawDataContainer_v1>
+class DataVector<xAOD::BCMRawData_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::BCMRawData_v1>
+class DataVector<xAOD::LumiBlockRange_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::LumiBlockRange_v1>
+class ElementLink<DataVector<xAOD::BCMRawData_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::BCMRawData_v1> >
+class ElementLink<xAOD::BCMRawDataContainer_v1>
+class vector<DataLink<DataVector<xAOD::BCMRawData_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::BCMRawData_v1> > >
+class vector<DataLink<xAOD::BCMRawDataContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::BCMRawData_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::BCMRawData_v1> > >
+class vector<ElementLink<xAOD::BCMRawDataContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::BCMRawDataContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::BCMRawData_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::BCMRawData_v1> > > >
+class xAOD::BCMRawDataAuxContainer_v1
+class xAOD::BCMRawDataContainer_v1
+class xAOD::BCMRawData_v1
+class xAOD::LumiBlockRangeAuxContainer_v1
+class xAOD::LumiBlockRangeContainer_v1
+class xAOD::LumiBlockRange_v1
+header xAODLuminosity/versions/BCMRawDataAuxContainer_v1.h
+header xAODLuminosity/versions/BCMRawData_v1.h
+header xAODLuminosity/versions/LumiBlockRangeAuxContainer_v1.h
+header xAODLuminosity/versions/LumiBlockRange_v1.h
+# List of selected typedefs and outer classes

@@ -1,0 +1,6 @@
+[ libElectronEfficiencyCorrection_Reflex.so ]
+# List of selected classes
+class AsgElectronEfficiencyCorrectionTool
+class IAsgElectronEfficiencyCorrectionTool
+header ElectronEfficiencyCorrection/AsgElectronEfficiencyCorrectionTool.h
+header ElectronEfficiencyCorrection/IAsgElectronEfficiencyCorrectionTool.h

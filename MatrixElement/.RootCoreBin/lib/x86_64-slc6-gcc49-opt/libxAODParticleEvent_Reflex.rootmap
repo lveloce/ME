@@ -1,0 +1,68 @@
+{ decls }
+namespace std {  }
+namespace xAOD {  }
+namespace xAOD { class Particle_v1; }
+namespace xAOD { class IParticle; }
+namespace DataModel_detail { class NoBase; }
+template <typename T, typename BASE> class DataVector;
+namespace xAOD { class CompositeParticle_v1; }
+template <typename STORABLE> class DataLink;
+template <typename STORABLE> class ElementLink;
+template <typename CONTAINER> class ElementLinkVector;
+
+[ libxAODParticleEvent_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::CompositeParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::CompositeParticle_v1> >
+class DataLink<DataVector<xAOD::Particle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::Particle_v1> >
+class DataLink<xAOD::CompositeParticleContainer_v1>
+class DataLink<xAOD::ParticleContainer_v1>
+class DataVector<xAOD::CompositeParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::CompositeParticle_v1>
+class DataVector<xAOD::Particle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::Particle_v1>
+class ElementLink<DataVector<xAOD::CompositeParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::CompositeParticle_v1> >
+class ElementLink<DataVector<xAOD::Particle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::Particle_v1> >
+class ElementLink<xAOD::CompositeParticleContainer_v1>
+class ElementLink<xAOD::ParticleContainer_v1>
+class ElementLinkVector<DataVector<xAOD::CompositeParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLinkVector<DataVector<xAOD::CompositeParticle_v1> >
+class ElementLinkVector<DataVector<xAOD::Particle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLinkVector<DataVector<xAOD::Particle_v1> >
+class ElementLinkVector<xAOD::CompositeParticleContainer_v1>
+class ElementLinkVector<xAOD::ParticleContainer_v1>
+class vector<DataLink<DataVector<xAOD::CompositeParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::CompositeParticle_v1> > >
+class vector<DataLink<DataVector<xAOD::Particle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::Particle_v1> > >
+class vector<DataLink<xAOD::CompositeParticleContainer_v1> >
+class vector<DataLink<xAOD::ParticleContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::CompositeParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::CompositeParticle_v1> > >
+class vector<ElementLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::IParticle> > >
+class vector<ElementLink<DataVector<xAOD::Particle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::Particle_v1> > >
+class vector<ElementLink<xAOD::CompositeParticleContainer_v1> >
+class vector<ElementLink<xAOD::ParticleContainer_v1> >
+class vector<ElementLinkVector<DataVector<xAOD::CompositeParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLinkVector<DataVector<xAOD::CompositeParticle_v1> > >
+class vector<ElementLinkVector<DataVector<xAOD::Particle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLinkVector<DataVector<xAOD::Particle_v1> > >
+class vector<ElementLinkVector<xAOD::CompositeParticleContainer_v1> >
+class vector<ElementLinkVector<xAOD::ParticleContainer_v1> >
+class xAOD::CompositeParticleAuxContainer_v1
+class xAOD::CompositeParticleContainer_v1
+class xAOD::CompositeParticle_v1
+class xAOD::IParticleLinkContainer_v1
+class xAOD::ParticleAuxContainer_v1
+class xAOD::ParticleContainer_v1
+class xAOD::Particle_v1
+header xAODParticleEvent/versions/CompositeParticleAuxContainer_v1.h
+header xAODParticleEvent/versions/CompositeParticle_v1.h
+header xAODParticleEvent/versions/ParticleAuxContainer_v1.h
+header xAODParticleEvent/versions/Particle_v1.h
+# List of selected typedefs and outer classes

@@ -1,0 +1,6 @@
+#ifndef TRIGTAUMATCHING_TRIGTAUMATCHINGDICT_H
+#define TRIGTAUMATCHING_TRIGTAUMATCHINGDICT_H
+
+#include "TrigTauMatching/TrigTauMatching.h"
+
+#endif

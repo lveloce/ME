@@ -1,0 +1,10 @@
+namespace ana
+{
+#ifdef ROOTCORE
+  inline StatusCode IQuickAna ::
+  process (xAOD::TEvent& /*event*/)
+  {
+    return process ();
+  }
+#endif
+}

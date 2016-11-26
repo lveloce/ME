@@ -1,0 +1,17 @@
+{ decls }
+namespace CP {  }
+namespace CP { class IMuonEfficiencyScaleFactors; }
+namespace CP { class IMuonTriggerScaleFactors; }
+
+[ libMuonEfficiencyCorrections_Reflex.so ]
+# List of selected classes
+class CP::IMuonEfficiencyScaleFactors
+class CP::IMuonTriggerScaleFactors
+class CP::MuonEfficiencyScaleFactors
+class CP::MuonTriggerScaleFactors
+class ToolHandle<CP::IMuonEfficiencyScaleFactors>
+class ToolHandle<CP::IMuonTriggerScaleFactors>
+header MuonEfficiencyCorrections/IMuonEfficiencyScaleFactors.h
+header MuonEfficiencyCorrections/IMuonTriggerScaleFactors.h
+header MuonEfficiencyCorrections/MuonEfficiencyScaleFactors.h
+header MuonEfficiencyCorrections/MuonTriggerScaleFactors.h

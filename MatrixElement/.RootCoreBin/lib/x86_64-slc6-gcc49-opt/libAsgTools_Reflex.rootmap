@@ -1,0 +1,15 @@
+{ decls }
+namespace asg {  }
+
+[ libAsgTools_Reflex.so ]
+# List of selected classes
+class asg::AsgMessaging
+class asg::AsgMetadataTool
+class asg::AsgTool
+class asg::IAsgTool
+class asg::ToolStore
+header AsgTools/AsgMessaging.h
+header AsgTools/AsgMetadataTool.h
+header AsgTools/AsgTool.h
+header AsgTools/IAsgTool.h
+header AsgTools/ToolStore.h

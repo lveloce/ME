@@ -1,0 +1,53 @@
+"MatrixElement, addME" Version 1.1
+November 24, 2016
+Contact: lveloce@physics.utoronto.ca
+
+****Please let me know if you notice any mistakes or bugs!!!******
+
+This code uses the MadgraphME package to calculate matrix elements and optimal observables for a given set of input data.
+
+1. In the home directory, type the following to run the code:
+	> rcSetup (uses version 2.4.14)
+	> rc find_packages
+	> rc compile
+	> run any of the executables in the MatrixElement/util/ folder by typing in their name. 
+
+2. The executables are:
+	(a) addMEnew.cxx reads in a set of minitrees, calculates their matrix elements & optimal observables, plots them, and then copies
+		the original minitrees and adds the ME and OO values to the tree.
+	(b)	testME.cxx tests a given set of processes using randomly-generated four vectors, so you can quickly check if your ME code is working 
+
+
+
+For more information on how to use the code ...
+
+I. addMEnew.cxx
+	1. 	List the files you want to test in FileNames (line 888)
+	2. 	List the madgraph parameter cards in the corresponding card list; for example, if you are using a ggF process you will list the
+		parameter cards under ggFCardNames (line 878). Right now, ggF 1 jet, VBF, and VH processes can be are implemented, but it is fairly simple to
+		add more. Will be adding ggF 2 jet ASAP.
+	3.  In the header (MatrixElement/MatrixElement/AddME.h), list the processes you will test. For example, if I want to test
+		ggF 1 jet for e+,e-,e+,e-,g final state:
+		
+			#include "MadGraphME/CPPProcess_P0_Sigma_ggf_1jet_LO_HC_NLO_X0_UFO_heft_gg_epemepemg.h"	
+			CPPProcess_P0_Sigma_ggf_1jet_LO_HC_NLO_X0_UFO_heft_gg_epemepemg *ggF1j_m_gg_epemepemg_SM;
+
+		where ggF1j_m_gg_epemepemg_SM would be used in combination with a standard model parameter card (i.e.: one with everything equal
+		to zero except for kSM and kHgg).
+			
+	4. 	In the main code, the processes are initialized at line 307. The names you use should be the same as the names listed in the 
+		header file.
+	5. 	Matrix elements are actually calculated at line 414 for the 2 jet case, and line 527 for the 1 jet case. 
+	6.  VH and VBF use the same parameter cards, and also expect the fermions to be input in the same order (i.e.: see the name of the 
+		MadGraphME file to know what order the fermion vector should have), so they are grouped together. They both use getFermionsVBFVH
+		to sort the fermions (j1, j2, l1, l2, l3, l4).
+	7.	ggF has a a different parameter card, and the 1 jet case has a different number of fermions, in a different order. getFermionsggF1j 
+		sorts them as l1, l2, l3, l4, j1.
+	8.	newT is the new tree with the extra branches for the ME and OO variables
+	9. 	oldT is the old tree read in from the minitrees
+		
+Reading in multiple processes this way is a huge pain, so I will change the code to be more similar to testME.cxx, however, at the moment I could not get it 
+to work with the minitrees.
+
+II. testME.cxx
+	List the parameter cards and corresponding processes at line 144. Fermion momenta are given random numbers, and the calculated ME is printed directly to terminal.

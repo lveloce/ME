@@ -1,0 +1,21 @@
+{ decls }
+namespace TauAnalysisTools {  }
+
+[ libTauAnalysisTools_Reflex.so ]
+# List of selected classes
+class TauAnalysisTools::CommonEfficiencyTool
+class TauAnalysisTools::CommonSmearingTool
+class TauAnalysisTools::TauEfficiencyCorrectionsTool
+class TauAnalysisTools::TauOverlappingElectronLLHDecorator
+class TauAnalysisTools::TauSelectionTool
+class TauAnalysisTools::TauSmearingTool
+class TauAnalysisTools::TauTruthMatchingTool
+class TauAnalysisTools::TauTruthTrackMatchingTool
+header TauAnalysisTools/CommonEfficiencyTool.h
+header TauAnalysisTools/CommonSmearingTool.h
+header TauAnalysisTools/TauEfficiencyCorrectionsTool.h
+header TauAnalysisTools/TauOverlappingElectronLLHDecorator.h
+header TauAnalysisTools/TauSelectionTool.h
+header TauAnalysisTools/TauSmearingTool.h
+header TauAnalysisTools/TauTruthMatchingTool.h
+header TauAnalysisTools/TauTruthTrackMatchingTool.h

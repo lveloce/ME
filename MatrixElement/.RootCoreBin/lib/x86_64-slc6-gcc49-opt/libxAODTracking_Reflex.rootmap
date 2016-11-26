@@ -1,0 +1,148 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class Vertex_v1; }
+namespace DataModel_detail { class NoBase; }
+namespace std {  }
+template <typename T, typename BASE> class DataVector;
+namespace xAOD { class TrackParticle_v1; }
+namespace xAOD { class NeutralParticle_v1; }
+namespace xAOD { class IParticle; }
+template <typename STORABLE> class ElementLink;
+template <typename STORABLE> class DataLink;
+namespace xAOD { class TrackMeasurementValidation_v1; }
+namespace xAOD { class TrackStateValidation_v1; }
+namespace Eigen {  }
+namespace Eigen { template <typename _Scalar, int, int, int, int, int> class Matrix; }
+
+[ libxAODTracking_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::NeutralParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::NeutralParticle_v1> >
+class DataLink<DataVector<xAOD::TrackMeasurementValidation_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::TrackMeasurementValidation_v1> >
+class DataLink<DataVector<xAOD::TrackParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::TrackParticle_v1> >
+class DataLink<DataVector<xAOD::TrackStateValidation_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::TrackStateValidation_v1> >
+class DataLink<DataVector<xAOD::Vertex_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::Vertex_v1> >
+class DataLink<xAOD::NeutralParticleContainer_v1>
+class DataLink<xAOD::TrackMeasurementValidationContainer_v1>
+class DataLink<xAOD::TrackParticleContainer_v1>
+class DataLink<xAOD::TrackStateValidationContainer_v1>
+class DataLink<xAOD::VertexContainer_v1>
+class DataVector<xAOD::NeutralParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::NeutralParticle_v1>
+class DataVector<xAOD::TrackMeasurementValidation_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrackMeasurementValidation_v1>
+class DataVector<xAOD::TrackParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::TrackParticle_v1>
+class DataVector<xAOD::TrackStateValidation_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrackStateValidation_v1>
+class DataVector<xAOD::Vertex_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::Vertex_v1>
+class Eigen::Matrix<double,6,1,0,6,1>
+class ElementLink<DataVector<xAOD::NeutralParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::NeutralParticle_v1> >
+class ElementLink<DataVector<xAOD::TrackMeasurementValidation_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TrackMeasurementValidation_v1> >
+class ElementLink<DataVector<xAOD::TrackParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::TrackParticle_v1> >
+class ElementLink<DataVector<xAOD::TrackStateValidation_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TrackStateValidation_v1> >
+class ElementLink<DataVector<xAOD::Vertex_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::Vertex_v1> >
+class ElementLink<xAOD::NeutralParticleContainer_v1>
+class ElementLink<xAOD::TrackMeasurementValidationContainer_v1>
+class ElementLink<xAOD::TrackParticleContainer_v1>
+class ElementLink<xAOD::TrackStateValidationContainer_v1>
+class ElementLink<xAOD::VertexContainer_v1>
+class vector<DataLink<DataVector<xAOD::NeutralParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::NeutralParticle_v1> > >
+class vector<DataLink<DataVector<xAOD::TrackMeasurementValidation_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::TrackMeasurementValidation_v1> > >
+class vector<DataLink<DataVector<xAOD::TrackParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::TrackParticle_v1> > >
+class vector<DataLink<DataVector<xAOD::TrackStateValidation_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::TrackStateValidation_v1> > >
+class vector<DataLink<DataVector<xAOD::Vertex_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::Vertex_v1> > >
+class vector<DataLink<xAOD::NeutralParticleContainer_v1> >
+class vector<DataLink<xAOD::TrackMeasurementValidationContainer_v1> >
+class vector<DataLink<xAOD::TrackParticleContainer_v1> >
+class vector<DataLink<xAOD::TrackStateValidationContainer_v1> >
+class vector<DataLink<xAOD::VertexContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::NeutralParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::NeutralParticle_v1> > >
+class vector<ElementLink<DataVector<xAOD::TrackMeasurementValidation_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TrackMeasurementValidation_v1> > >
+class vector<ElementLink<DataVector<xAOD::TrackParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::TrackParticle_v1> > >
+class vector<ElementLink<DataVector<xAOD::TrackStateValidation_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TrackStateValidation_v1> > >
+class vector<ElementLink<DataVector<xAOD::Vertex_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::Vertex_v1> > >
+class vector<ElementLink<xAOD::NeutralParticleContainer_v1> >
+class vector<ElementLink<xAOD::TrackMeasurementValidationContainer_v1> >
+class vector<ElementLink<xAOD::TrackParticleContainer_v1> >
+class vector<ElementLink<xAOD::TrackStateValidationContainer_v1> >
+class vector<ElementLink<xAOD::VertexContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::NeutralParticleContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TrackMeasurementValidationContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TrackParticleContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TrackStateValidationContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::VertexContainer_v1> > >
+class vector<std::vector<std::vector<float> > >
+class vector<std::vector<std::vector<int> > >
+class vector<std::vector<unsigned long> >
+class vector<vector<ElementLink<DataVector<xAOD::NeutralParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::NeutralParticle_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrackMeasurementValidation_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrackMeasurementValidation_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrackParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrackParticle_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrackStateValidation_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrackStateValidation_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::Vertex_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::Vertex_v1> > > >
+class vector<vector<unsigned long> >
+class vector<vector<vector<float> > >
+class vector<vector<vector<int> > >
+class xAOD::CurvilinearParameters_t
+class xAOD::NeutralParticleAuxContainer_v1
+class xAOD::NeutralParticleContainer_v1
+class xAOD::NeutralParticle_v1
+class xAOD::TrackMeasurementValidationAuxContainer_v1
+class xAOD::TrackMeasurementValidationContainer_v1
+class xAOD::TrackMeasurementValidation_v1
+class xAOD::TrackParticleAuxContainer_v1
+class xAOD::TrackParticleAuxContainer_v2
+class xAOD::TrackParticleContainer_v1
+class xAOD::TrackParticle_v1
+class xAOD::TrackStateValidationAuxContainer_v1
+class xAOD::TrackStateValidationContainer_v1
+class xAOD::TrackStateValidation_v1
+class xAOD::VertexAuxContainer_v1
+class xAOD::VertexContainer_v1
+class xAOD::Vertex_v1
+header xAODTracking/versions/NeutralParticleAuxContainer_v1.h
+header xAODTracking/versions/NeutralParticle_v1.h
+header xAODTracking/versions/TrackMeasurementValidationAuxContainer_v1.h
+header xAODTracking/versions/TrackMeasurementValidation_v1.h
+header xAODTracking/versions/TrackParticleAuxContainer_v1.h
+header xAODTracking/versions/TrackParticleAuxContainer_v2.h
+header xAODTracking/versions/TrackParticle_v1.h
+header xAODTracking/versions/TrackStateValidationAuxContainer_v1.h
+header xAODTracking/versions/TrackStateValidation_v1.h
+header xAODTracking/versions/VertexAuxContainer_v1.h
+header xAODTracking/versions/Vertex_v1.h
+# List of selected typedefs and outer classes
+# List of selected enums and outer classes
+enum xAOD::TrackFitter
+enum xAOD::TrackProperties
+enum xAOD::TrackPatternRecoInfo
+enum xAOD::ParticleHypothesis
+enum xAOD::ParameterPosition
+enum xAOD::SummaryType
+enum xAOD::MuonSummaryType
+enum xAOD::VxType::VertexType

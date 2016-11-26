@@ -1,0 +1,125 @@
+{ decls }
+namespace xAOD {  }
+namespace std {  }
+namespace xAOD { class MuonRoI_v1; }
+namespace xAOD { class JetRoI_v1; }
+namespace xAOD { class JetRoI_v2; }
+namespace xAOD { class EmTauRoI_v1; }
+namespace xAOD { class EmTauRoI_v2; }
+namespace xAOD { class TriggerMenu_v1; }
+namespace xAOD { class TrigComposite_v1; }
+namespace xAOD { class BunchConf_v1; }
+namespace xAOD { class TrigPassBits_v1; }
+
+[ libxAODTrigger_Reflex.so ]
+# List of selected classes
+class DataVector<xAOD::BunchConf_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::BunchConf_v1>
+class DataVector<xAOD::EmTauRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::EmTauRoI_v1>
+class DataVector<xAOD::EmTauRoI_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::EmTauRoI_v2>
+class DataVector<xAOD::JetRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::JetRoI_v1>
+class DataVector<xAOD::JetRoI_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::JetRoI_v2>
+class DataVector<xAOD::MuonRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::MuonRoI_v1>
+class DataVector<xAOD::TrigComposite_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigComposite_v1>
+class DataVector<xAOD::TrigPassBits_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TrigPassBits_v1>
+class DataVector<xAOD::TriggerMenu_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TriggerMenu_v1>
+class map<std::string,std::vector<float> >
+class map<std::string,std::vector<int> >
+class map<std::string,std::vector<std::vector<float> > >
+class map<std::string,std::vector<std::vector<int> > >
+class map<string,vector<float> >
+class map<string,vector<int> >
+class map<string,vector<vector<float> > >
+class map<string,vector<vector<int> > >
+class vector<std::vector<std::string> >
+class vector<std::vector<std::vector<std::string> > >
+class vector<std::vector<std::vector<std::vector<std::string> > > >
+class vector<std::vector<std::vector<uint16_t> > >
+class vector<std::vector<std::vector<uint32_t> > >
+class vector<std::vector<uint16_t> >
+class vector<vector<string> >
+class vector<vector<unsigned short> >
+class vector<vector<vector<string> > >
+class vector<vector<vector<unsigned int> > >
+class vector<vector<vector<unsigned short> > >
+class vector<vector<vector<vector<string> > > >
+class xAOD::BunchConfAuxContainer_v1
+class xAOD::BunchConfContainer_v1
+class xAOD::BunchConfKey_v1
+class xAOD::BunchConf_v1
+class xAOD::ByteStreamAuxContainer_v1
+class xAOD::EmTauRoIAuxContainer_v1
+class xAOD::EmTauRoIAuxContainer_v2
+class xAOD::EmTauRoIContainer_v1
+class xAOD::EmTauRoIContainer_v2
+class xAOD::EmTauRoI_v1
+class xAOD::EmTauRoI_v2
+class xAOD::EnergySumRoIAuxInfo_v1
+class xAOD::EnergySumRoI_v1
+class xAOD::JetEtRoIAuxInfo_v1
+class xAOD::JetEtRoI_v1
+class xAOD::JetRoIAuxContainer_v1
+class xAOD::JetRoIAuxContainer_v2
+class xAOD::JetRoIContainer_v1
+class xAOD::JetRoIContainer_v2
+class xAOD::JetRoI_v1
+class xAOD::JetRoI_v2
+class xAOD::MuonRoIAuxContainer_v1
+class xAOD::MuonRoIContainer_v1
+class xAOD::MuonRoI_v1
+class xAOD::RoiDescriptorStoreAuxInfo_v1
+class xAOD::RoiDescriptorStore_v1
+class xAOD::TrigCompositeAuxContainer_v1
+class xAOD::TrigCompositeContainer_v1
+class xAOD::TrigComposite_v1
+class xAOD::TrigConfKeys_v1
+class xAOD::TrigDecisionAuxInfo_v1
+class xAOD::TrigDecision_v1
+class xAOD::TrigNavigationAuxInfo_v1
+class xAOD::TrigNavigation_v1
+class xAOD::TrigPassBitsAuxContainer_v1
+class xAOD::TrigPassBitsContainer_v1
+class xAOD::TrigPassBits_v1
+class xAOD::TriggerMenuAuxContainer_v1
+class xAOD::TriggerMenuContainer_v1
+class xAOD::TriggerMenu_v1
+header xAODTrigger/versions/BunchConfAuxContainer_v1.h
+header xAODTrigger/versions/BunchConfKey_v1.h
+header xAODTrigger/versions/BunchConf_v1.h
+header xAODTrigger/versions/ByteStreamAuxContainer_v1.h
+header xAODTrigger/versions/EmTauRoIAuxContainer_v1.h
+header xAODTrigger/versions/EmTauRoIAuxContainer_v2.h
+header xAODTrigger/versions/EmTauRoI_v1.h
+header xAODTrigger/versions/EmTauRoI_v2.h
+header xAODTrigger/versions/EnergySumRoIAuxInfo_v1.h
+header xAODTrigger/versions/EnergySumRoI_v1.h
+header xAODTrigger/versions/JetEtRoIAuxInfo_v1.h
+header xAODTrigger/versions/JetEtRoI_v1.h
+header xAODTrigger/versions/JetRoIAuxContainer_v1.h
+header xAODTrigger/versions/JetRoIAuxContainer_v2.h
+header xAODTrigger/versions/JetRoI_v1.h
+header xAODTrigger/versions/JetRoI_v2.h
+header xAODTrigger/versions/MuonRoIAuxContainer_v1.h
+header xAODTrigger/versions/MuonRoI_v1.h
+header xAODTrigger/versions/RoiDescriptorStoreAuxInfo_v1.h
+header xAODTrigger/versions/RoiDescriptorStore_v1.h
+header xAODTrigger/versions/TrigCompositeAuxContainer_v1.h
+header xAODTrigger/versions/TrigComposite_v1.h
+header xAODTrigger/versions/TrigConfKeys_v1.h
+header xAODTrigger/versions/TrigDecisionAuxInfo_v1.h
+header xAODTrigger/versions/TrigDecision_v1.h
+header xAODTrigger/versions/TrigNavigationAuxInfo_v1.h
+header xAODTrigger/versions/TrigNavigation_v1.h
+header xAODTrigger/versions/TrigPassBitsAuxContainer_v1.h
+header xAODTrigger/versions/TrigPassBits_v1.h
+header xAODTrigger/versions/TriggerMenuAuxContainer_v1.h
+header xAODTrigger/versions/TriggerMenu_v1.h
+# List of selected typedefs and outer classes

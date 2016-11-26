@@ -1,0 +1,63 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class BTagging_v1; }
+namespace DataModel_detail { class NoBase; }
+namespace std {  }
+template <typename T, typename BASE> class DataVector;
+namespace xAOD { class BTagVertex_v1; }
+template <typename STORABLE> class DataLink;
+template <typename STORABLE> class ElementLink;
+
+[ libxAODBTagging_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::BTagVertex_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::BTagVertex_v1> >
+class DataLink<DataVector<xAOD::BTagging_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::BTagging_v1> >
+class DataLink<xAOD::BTagVertexContainer_v1>
+class DataLink<xAOD::BTaggingContainer_v1>
+class DataVector<xAOD::BTagVertex_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::BTagVertex_v1>
+class DataVector<xAOD::BTagging_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::BTagging_v1>
+class ElementLink<DataVector<xAOD::BTagVertex_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::BTagVertex_v1> >
+class ElementLink<DataVector<xAOD::BTagging_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::BTagging_v1> >
+class ElementLink<xAOD::BTagVertexContainer_v1>
+class ElementLink<xAOD::BTaggingContainer_v1>
+class vector<DataLink<DataVector<xAOD::BTagVertex_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::BTagVertex_v1> > >
+class vector<DataLink<DataVector<xAOD::BTagging_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::BTagging_v1> > >
+class vector<DataLink<xAOD::BTagVertexContainer_v1> >
+class vector<DataLink<xAOD::BTaggingContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::BTagVertex_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::BTagVertex_v1> > >
+class vector<ElementLink<DataVector<xAOD::BTagging_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::BTagging_v1> > >
+class vector<ElementLink<xAOD::BTagVertexContainer_v1> >
+class vector<ElementLink<xAOD::BTaggingContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::BTagVertexContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::BTaggingContainer_v1> > >
+class vector<std::vector<bool> >
+class vector<std::vector<int> >
+class vector<vector<ElementLink<DataVector<xAOD::BTagVertex_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::BTagVertex_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::BTagging_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::BTagging_v1> > > >
+class vector<vector<bool> >
+class vector<vector<int> >
+class xAOD::BTagVertexAuxContainer_v1
+class xAOD::BTagVertexContainer_v1
+class xAOD::BTagVertex_v1
+class xAOD::BTaggingAuxContainer_v1
+class xAOD::BTaggingContainer_v1
+class xAOD::BTaggingTrigAuxContainer_v1
+class xAOD::BTagging_v1
+header xAODBTagging/versions/BTagVertexAuxContainer_v1.h
+header xAODBTagging/versions/BTagVertex_v1.h
+header xAODBTagging/versions/BTaggingAuxContainer_v1.h
+header xAODBTagging/versions/BTaggingTrigAuxContainer_v1.h
+header xAODBTagging/versions/BTagging_v1.h
+# List of selected typedefs and outer classes

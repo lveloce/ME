@@ -1,0 +1,14 @@
+{ decls }
+namespace CP {  }
+namespace asg {  }
+namespace CP { class IPileupReweightingTool; }
+
+[ libPileupReweighting_Reflex.so ]
+# List of selected classes
+class CP::IPileupReweightingTool
+class CP::PileupReweightingTool
+class asg::AnaToolHandle<CP::IPileupReweightingTool>
+header PileupReweighting/IPileupReweightingTool.h
+header PileupReweighting/PileupReweightingTool.h
+# List of selected namespaces
+namespace CP

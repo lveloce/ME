@@ -1,0 +1,10 @@
+[ libxAODBTaggingEfficiency_Reflex.so ]
+# List of selected classes
+class BTaggingEfficiencyTool
+class BTaggingSelectionTool
+class IBTaggingEfficiencyTool
+class IBTaggingSelectionTool
+header xAODBTaggingEfficiency/BTaggingEfficiencyTool.h
+header xAODBTaggingEfficiency/BTaggingSelectionTool.h
+header xAODBTaggingEfficiency/IBTaggingEfficiencyTool.h
+header xAODBTaggingEfficiency/IBTaggingSelectionTool.h

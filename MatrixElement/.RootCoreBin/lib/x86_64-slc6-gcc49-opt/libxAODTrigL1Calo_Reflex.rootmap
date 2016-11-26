@@ -1,0 +1,218 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class JEMHits_v1; }
+namespace xAOD { class JEMEtSums_v1; }
+namespace xAOD { class JEMRoI_v1; }
+namespace xAOD { class CPMHits_v1; }
+namespace xAOD { class CPMTower_v1; }
+namespace xAOD { class CPMRoI_v1; }
+namespace xAOD { class CMMCPHits_v1; }
+namespace xAOD { class CMMEtSums_v1; }
+namespace xAOD { class CMMJetHits_v1; }
+namespace xAOD { class JetElement_v1; }
+namespace xAOD { class RODHeader_v1; }
+namespace xAOD { class RODHeader_v2; }
+namespace xAOD { class TriggerTower_v1; }
+namespace xAOD { class TriggerTower_v2; }
+namespace xAOD { class CMXCPHits_v1; }
+namespace xAOD { class CMXCPTob_v1; }
+namespace xAOD { class CMXJetHits_v1; }
+namespace xAOD { class CMXJetTob_v1; }
+namespace xAOD { class CMXEtSums_v1; }
+namespace xAOD { class CMXRoI_v1; }
+namespace xAOD { class CPMTower_v2; }
+namespace xAOD { class CPMTobRoI_v1; }
+namespace xAOD { class JEMEtSums_v2; }
+namespace xAOD { class JEMTobRoI_v1; }
+namespace xAOD { class JetElement_v2; }
+namespace xAOD { class L1TopoRawData_v1; }
+
+[ libxAODTrigL1Calo_Reflex.so ]
+# List of selected classes
+class DataVector<xAOD::CMMCPHits_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMMCPHits_v1>
+class DataVector<xAOD::CMMEtSums_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMMEtSums_v1>
+class DataVector<xAOD::CMMJetHits_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMMJetHits_v1>
+class DataVector<xAOD::CMXCPHits_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMXCPHits_v1>
+class DataVector<xAOD::CMXCPTob_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMXCPTob_v1>
+class DataVector<xAOD::CMXEtSums_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMXEtSums_v1>
+class DataVector<xAOD::CMXJetHits_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMXJetHits_v1>
+class DataVector<xAOD::CMXJetTob_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMXJetTob_v1>
+class DataVector<xAOD::CMXRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CMXRoI_v1>
+class DataVector<xAOD::CPMHits_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CPMHits_v1>
+class DataVector<xAOD::CPMRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CPMRoI_v1>
+class DataVector<xAOD::CPMTobRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CPMTobRoI_v1>
+class DataVector<xAOD::CPMTower_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::CPMTower_v1>
+class DataVector<xAOD::CPMTower_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::CPMTower_v2>
+class DataVector<xAOD::JEMEtSums_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::JEMEtSums_v1>
+class DataVector<xAOD::JEMEtSums_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::JEMEtSums_v2>
+class DataVector<xAOD::JEMHits_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::JEMHits_v1>
+class DataVector<xAOD::JEMRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::JEMRoI_v1>
+class DataVector<xAOD::JEMTobRoI_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::JEMTobRoI_v1>
+class DataVector<xAOD::JetElement_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::JetElement_v1>
+class DataVector<xAOD::JetElement_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::JetElement_v2>
+class DataVector<xAOD::L1TopoRawData_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::L1TopoRawData_v1>
+class DataVector<xAOD::RODHeader_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::RODHeader_v1>
+class DataVector<xAOD::RODHeader_v2,DataModel_detail::NoBase>
+class DataVector<xAOD::RODHeader_v2>
+class DataVector<xAOD::TriggerTower_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TriggerTower_v1>
+class DataVector<xAOD::TriggerTower_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::TriggerTower_v2>
+class xAOD::CMMCPHitsAuxContainer_v1
+class xAOD::CMMCPHitsContainer_v1
+class xAOD::CMMCPHits_v1
+class xAOD::CMMEtSumsAuxContainer_v1
+class xAOD::CMMEtSumsContainer_v1
+class xAOD::CMMEtSums_v1
+class xAOD::CMMJetHitsAuxContainer_v1
+class xAOD::CMMJetHitsContainer_v1
+class xAOD::CMMJetHits_v1
+class xAOD::CMMRoIAuxInfo_v1
+class xAOD::CMMRoI_v1
+class xAOD::CMXCPHitsAuxContainer_v1
+class xAOD::CMXCPHitsContainer_v1
+class xAOD::CMXCPHits_v1
+class xAOD::CMXCPTobAuxContainer_v1
+class xAOD::CMXCPTobContainer_v1
+class xAOD::CMXCPTob_v1
+class xAOD::CMXEtSumsAuxContainer_v1
+class xAOD::CMXEtSumsContainer_v1
+class xAOD::CMXEtSums_v1
+class xAOD::CMXJetHitsAuxContainer_v1
+class xAOD::CMXJetHitsContainer_v1
+class xAOD::CMXJetHits_v1
+class xAOD::CMXJetTobAuxContainer_v1
+class xAOD::CMXJetTobContainer_v1
+class xAOD::CMXJetTob_v1
+class xAOD::CMXRoIAuxContainer_v1
+class xAOD::CMXRoIContainer_v1
+class xAOD::CMXRoI_v1
+class xAOD::CPMHitsAuxContainer_v1
+class xAOD::CPMHitsContainer_v1
+class xAOD::CPMHits_v1
+class xAOD::CPMRoIAuxContainer_v1
+class xAOD::CPMRoIContainer_v1
+class xAOD::CPMRoI_v1
+class xAOD::CPMTobRoIAuxContainer_v1
+class xAOD::CPMTobRoIContainer_v1
+class xAOD::CPMTobRoI_v1
+class xAOD::CPMTowerAuxContainer_v1
+class xAOD::CPMTowerAuxContainer_v2
+class xAOD::CPMTowerContainer_v1
+class xAOD::CPMTowerContainer_v2
+class xAOD::CPMTower_v1
+class xAOD::CPMTower_v2
+class xAOD::JEMEtSumsAuxContainer_v1
+class xAOD::JEMEtSumsAuxContainer_v2
+class xAOD::JEMEtSumsContainer_v1
+class xAOD::JEMEtSumsContainer_v2
+class xAOD::JEMEtSums_v1
+class xAOD::JEMEtSums_v2
+class xAOD::JEMHitsAuxContainer_v1
+class xAOD::JEMHitsContainer_v1
+class xAOD::JEMHits_v1
+class xAOD::JEMRoIAuxContainer_v1
+class xAOD::JEMRoIContainer_v1
+class xAOD::JEMRoI_v1
+class xAOD::JEMTobRoIAuxContainer_v1
+class xAOD::JEMTobRoIContainer_v1
+class xAOD::JEMTobRoI_v1
+class xAOD::JetElementAuxContainer_v1
+class xAOD::JetElementAuxContainer_v2
+class xAOD::JetElementContainer_v1
+class xAOD::JetElementContainer_v2
+class xAOD::JetElement_v1
+class xAOD::JetElement_v2
+class xAOD::L1TopoRawDataAuxContainer_v1
+class xAOD::L1TopoRawDataContainer_v1
+class xAOD::L1TopoRawData_v1
+class xAOD::RODHeaderAuxContainer_v1
+class xAOD::RODHeaderAuxContainer_v2
+class xAOD::RODHeaderContainer_v1
+class xAOD::RODHeaderContainer_v2
+class xAOD::RODHeader_v1
+class xAOD::RODHeader_v2
+class xAOD::TriggerTowerAuxContainer_v1
+class xAOD::TriggerTowerAuxContainer_v2
+class xAOD::TriggerTowerContainer_v1
+class xAOD::TriggerTowerContainer_v2
+class xAOD::TriggerTower_v1
+class xAOD::TriggerTower_v2
+header xAODTrigL1Calo/versions/CMMCPHitsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMMCPHits_v1.h
+header xAODTrigL1Calo/versions/CMMEtSumsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMMEtSums_v1.h
+header xAODTrigL1Calo/versions/CMMJetHitsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMMJetHits_v1.h
+header xAODTrigL1Calo/versions/CMMRoIAuxInfo_v1.h
+header xAODTrigL1Calo/versions/CMMRoI_v1.h
+header xAODTrigL1Calo/versions/CMXCPHitsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMXCPHits_v1.h
+header xAODTrigL1Calo/versions/CMXCPTobAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMXCPTob_v1.h
+header xAODTrigL1Calo/versions/CMXEtSumsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMXEtSums_v1.h
+header xAODTrigL1Calo/versions/CMXJetHitsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMXJetHits_v1.h
+header xAODTrigL1Calo/versions/CMXJetTobAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMXJetTob_v1.h
+header xAODTrigL1Calo/versions/CMXRoIAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CMXRoI_v1.h
+header xAODTrigL1Calo/versions/CPMHitsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CPMHits_v1.h
+header xAODTrigL1Calo/versions/CPMRoIAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CPMRoI_v1.h
+header xAODTrigL1Calo/versions/CPMTobRoIAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CPMTobRoI_v1.h
+header xAODTrigL1Calo/versions/CPMTowerAuxContainer_v1.h
+header xAODTrigL1Calo/versions/CPMTowerAuxContainer_v2.h
+header xAODTrigL1Calo/versions/CPMTower_v1.h
+header xAODTrigL1Calo/versions/CPMTower_v2.h
+header xAODTrigL1Calo/versions/JEMEtSumsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/JEMEtSumsAuxContainer_v2.h
+header xAODTrigL1Calo/versions/JEMEtSums_v1.h
+header xAODTrigL1Calo/versions/JEMEtSums_v2.h
+header xAODTrigL1Calo/versions/JEMHitsAuxContainer_v1.h
+header xAODTrigL1Calo/versions/JEMHits_v1.h
+header xAODTrigL1Calo/versions/JEMRoIAuxContainer_v1.h
+header xAODTrigL1Calo/versions/JEMRoI_v1.h
+header xAODTrigL1Calo/versions/JEMTobRoIAuxContainer_v1.h
+header xAODTrigL1Calo/versions/JEMTobRoI_v1.h
+header xAODTrigL1Calo/versions/JetElementAuxContainer_v1.h
+header xAODTrigL1Calo/versions/JetElementAuxContainer_v2.h
+header xAODTrigL1Calo/versions/JetElement_v1.h
+header xAODTrigL1Calo/versions/JetElement_v2.h
+header xAODTrigL1Calo/versions/L1TopoRawDataAuxContainer_v1.h
+header xAODTrigL1Calo/versions/L1TopoRawData_v1.h
+header xAODTrigL1Calo/versions/RODHeaderAuxContainer_v1.h
+header xAODTrigL1Calo/versions/RODHeaderAuxContainer_v2.h
+header xAODTrigL1Calo/versions/RODHeader_v1.h
+header xAODTrigL1Calo/versions/RODHeader_v2.h
+header xAODTrigL1Calo/versions/TriggerTowerAuxContainer_v1.h
+header xAODTrigL1Calo/versions/TriggerTowerAuxContainer_v2.h
+header xAODTrigL1Calo/versions/TriggerTower_v1.h
+header xAODTrigL1Calo/versions/TriggerTower_v2.h
+# List of selected typedefs and outer classes

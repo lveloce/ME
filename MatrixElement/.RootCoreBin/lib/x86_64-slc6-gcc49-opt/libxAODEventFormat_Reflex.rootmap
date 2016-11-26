@@ -1,0 +1,13 @@
+{ decls }
+namespace xAOD {  }
+namespace std {  }
+
+[ libxAODEventFormat_Reflex.so ]
+# List of selected classes
+class _Rb_tree_const_iterator<pair<const string,xAOD::EventFormatElement> >
+class _Rb_tree_const_iterator<pair<string const,xAOD::EventFormatElement> >
+class xAOD::EventFormatElement
+class xAOD::EventFormat_v1
+class xAOD::EventFormat_v1::const_iterator
+header xAODEventFormat/EventFormatElement.h
+header xAODEventFormat/versions/EventFormat_v1.h

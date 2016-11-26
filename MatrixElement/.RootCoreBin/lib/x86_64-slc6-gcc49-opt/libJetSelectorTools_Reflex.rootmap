@@ -1,0 +1,8 @@
+[ libJetSelectorTools_Reflex.so ]
+# List of selected classes
+class JetAbsAttributeSelector
+class JetAttributeRatioSelector
+class JetAttributeSelector
+class JetCleaningTool
+header JetSelectorTools/JetAttributeSelector.h
+header JetSelectorTools/JetCleaningTool.h

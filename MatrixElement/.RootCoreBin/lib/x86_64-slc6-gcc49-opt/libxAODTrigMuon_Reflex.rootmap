@@ -1,0 +1,104 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class L2StandAloneMuon_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+namespace xAOD { class L2StandAloneMuon_v2; }
+template <typename T, typename BASE> class DataVector;
+template <typename STORABLE> class ElementLink;
+namespace xAOD { class L2IsoMuon_v1; }
+template <typename STORABLE> class DataLink;
+namespace xAOD { class L2CombinedMuon_v1; }
+
+[ libxAODTrigMuon_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::L2CombinedMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::L2CombinedMuon_v1> >
+class DataLink<DataVector<xAOD::L2IsoMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::L2IsoMuon_v1> >
+class DataLink<DataVector<xAOD::L2StandAloneMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::L2StandAloneMuon_v1> >
+class DataLink<DataVector<xAOD::L2StandAloneMuon_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::L2StandAloneMuon_v2> >
+class DataLink<xAOD::L2CombinedMuonContainer_v1>
+class DataLink<xAOD::L2IsoMuonContainer_v1>
+class DataLink<xAOD::L2StandAloneMuonContainer_v1>
+class DataLink<xAOD::L2StandAloneMuonContainer_v2>
+class DataVector<xAOD::L2CombinedMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::L2CombinedMuon_v1>
+class DataVector<xAOD::L2IsoMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::L2IsoMuon_v1>
+class DataVector<xAOD::L2StandAloneMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::L2StandAloneMuon_v1>
+class DataVector<xAOD::L2StandAloneMuon_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::L2StandAloneMuon_v2>
+class ElementLink<DataVector<xAOD::L2CombinedMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::L2CombinedMuon_v1> >
+class ElementLink<DataVector<xAOD::L2IsoMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::L2IsoMuon_v1> >
+class ElementLink<DataVector<xAOD::L2StandAloneMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::L2StandAloneMuon_v1> >
+class ElementLink<DataVector<xAOD::L2StandAloneMuon_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::L2StandAloneMuon_v2> >
+class ElementLink<xAOD::L2CombinedMuonContainer_v1>
+class ElementLink<xAOD::L2IsoMuonContainer_v1>
+class ElementLink<xAOD::L2StandAloneMuonContainer_v1>
+class ElementLink<xAOD::L2StandAloneMuonContainer_v2>
+class vector<DataLink<DataVector<xAOD::L2CombinedMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::L2CombinedMuon_v1> > >
+class vector<DataLink<DataVector<xAOD::L2IsoMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::L2IsoMuon_v1> > >
+class vector<DataLink<DataVector<xAOD::L2StandAloneMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::L2StandAloneMuon_v1> > >
+class vector<DataLink<DataVector<xAOD::L2StandAloneMuon_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::L2StandAloneMuon_v2> > >
+class vector<DataLink<xAOD::L2CombinedMuonContainer_v1> >
+class vector<DataLink<xAOD::L2IsoMuonContainer_v1> >
+class vector<DataLink<xAOD::L2StandAloneMuonContainer_v1> >
+class vector<DataLink<xAOD::L2StandAloneMuonContainer_v2> >
+class vector<ElementLink<DataVector<xAOD::L2CombinedMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::L2CombinedMuon_v1> > >
+class vector<ElementLink<DataVector<xAOD::L2IsoMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::L2IsoMuon_v1> > >
+class vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v1> > >
+class vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v2> > >
+class vector<ElementLink<xAOD::L2CombinedMuonContainer_v1> >
+class vector<ElementLink<xAOD::L2IsoMuonContainer_v1> >
+class vector<ElementLink<xAOD::L2StandAloneMuonContainer_v1> >
+class vector<ElementLink<xAOD::L2StandAloneMuonContainer_v2> >
+class vector<std::vector<ElementLink<xAOD::L2CombinedMuonContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::L2IsoMuonContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::L2StandAloneMuonContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::L2StandAloneMuonContainer_v2> > >
+class vector<vector<ElementLink<DataVector<xAOD::L2CombinedMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::L2CombinedMuon_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::L2IsoMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::L2IsoMuon_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v2,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::L2StandAloneMuon_v2> > > >
+class xAOD::L2CombinedMuonAuxContainer_v1
+class xAOD::L2CombinedMuonContainer_v1
+class xAOD::L2CombinedMuon_v1
+class xAOD::L2IsoMuonAuxContainer_v1
+class xAOD::L2IsoMuonContainer_v1
+class xAOD::L2IsoMuon_v1
+class xAOD::L2StandAloneMuonAuxContainer_v1
+class xAOD::L2StandAloneMuonAuxContainer_v2
+class xAOD::L2StandAloneMuonContainer_v1
+class xAOD::L2StandAloneMuonContainer_v2
+class xAOD::L2StandAloneMuon_v1
+class xAOD::L2StandAloneMuon_v2
+header xAODTrigMuon/versions/L2CombinedMuonAuxContainer_v1.h
+header xAODTrigMuon/versions/L2CombinedMuon_v1.h
+header xAODTrigMuon/versions/L2IsoMuonAuxContainer_v1.h
+header xAODTrigMuon/versions/L2IsoMuon_v1.h
+header xAODTrigMuon/versions/L2StandAloneMuonAuxContainer_v1.h
+header xAODTrigMuon/versions/L2StandAloneMuonAuxContainer_v2.h
+header xAODTrigMuon/versions/L2StandAloneMuon_v1.h
+header xAODTrigMuon/versions/L2StandAloneMuon_v2.h
+# List of selected typedefs and outer classes

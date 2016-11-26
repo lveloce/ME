@@ -1,0 +1,220 @@
+{ decls }
+namespace SG {  }
+namespace SG { class IConstAuxStore; }
+namespace SG { template <typename T> class hash; }
+namespace std {  }
+namespace CxxUtils_Internal {  }
+namespace CxxUtils_Internal { template <typename Value, bool> class hash_node; }
+namespace CxxUtils_Internal { template <typename Value, bool, bool> class hashtable_const_iterator; }
+namespace CxxUtils_Internal { template <typename Value, bool, bool> class hashtable_iterator; }
+namespace CxxUtils_Internal { template <typename T> class identity; }
+namespace SG { template <typename T> class PackedContainer; }
+
+[ libAthContainers_Reflex.so ]
+# List of selected classes
+class CxxUtils_Internal::hash_node<unsigned long,false>
+class CxxUtils_Internal::hashtable_const_iterator<unsigned long,true,false>
+class CxxUtils_Internal::hashtable_iterator<unsigned long,true,false>
+class DataLink<SG::IConstAuxStore>
+class SG::AuxDataOption
+class SG::AuxElement
+class SG::AuxElement::Accessor<ULong64_t>
+class SG::AuxElement::Accessor<bool>
+class SG::AuxElement::Accessor<char>
+class SG::AuxElement::Accessor<double>
+class SG::AuxElement::Accessor<float>
+class SG::AuxElement::Accessor<int>
+class SG::AuxElement::Accessor<long>
+class SG::AuxElement::Accessor<short>
+class SG::AuxElement::Accessor<std::string>
+class SG::AuxElement::Accessor<std::vector<ULong64_t> >
+class SG::AuxElement::Accessor<std::vector<bool> >
+class SG::AuxElement::Accessor<std::vector<char> >
+class SG::AuxElement::Accessor<std::vector<double> >
+class SG::AuxElement::Accessor<std::vector<float> >
+class SG::AuxElement::Accessor<std::vector<int> >
+class SG::AuxElement::Accessor<std::vector<long> >
+class SG::AuxElement::Accessor<std::vector<short> >
+class SG::AuxElement::Accessor<std::vector<std::string> >
+class SG::AuxElement::Accessor<std::vector<unsigned char> >
+class SG::AuxElement::Accessor<std::vector<unsigned int> >
+class SG::AuxElement::Accessor<std::vector<unsigned long> >
+class SG::AuxElement::Accessor<std::vector<unsigned short> >
+class SG::AuxElement::Accessor<string>
+class SG::AuxElement::Accessor<unsigned char>
+class SG::AuxElement::Accessor<unsigned int>
+class SG::AuxElement::Accessor<unsigned long>
+class SG::AuxElement::Accessor<unsigned short>
+class SG::AuxElement::Accessor<vector<ULong64_t> >
+class SG::AuxElement::Accessor<vector<bool> >
+class SG::AuxElement::Accessor<vector<char> >
+class SG::AuxElement::Accessor<vector<double> >
+class SG::AuxElement::Accessor<vector<float> >
+class SG::AuxElement::Accessor<vector<int> >
+class SG::AuxElement::Accessor<vector<long> >
+class SG::AuxElement::Accessor<vector<short> >
+class SG::AuxElement::Accessor<vector<string> >
+class SG::AuxElement::Accessor<vector<unsigned char> >
+class SG::AuxElement::Accessor<vector<unsigned int> >
+class SG::AuxElement::Accessor<vector<unsigned long> >
+class SG::AuxElement::Accessor<vector<unsigned short> >
+class SG::AuxElement::ConstAccessor<ULong64_t>
+class SG::AuxElement::ConstAccessor<bool>
+class SG::AuxElement::ConstAccessor<char>
+class SG::AuxElement::ConstAccessor<double>
+class SG::AuxElement::ConstAccessor<float>
+class SG::AuxElement::ConstAccessor<int>
+class SG::AuxElement::ConstAccessor<long>
+class SG::AuxElement::ConstAccessor<short>
+class SG::AuxElement::ConstAccessor<std::string>
+class SG::AuxElement::ConstAccessor<std::vector<ULong64_t> >
+class SG::AuxElement::ConstAccessor<std::vector<bool> >
+class SG::AuxElement::ConstAccessor<std::vector<char> >
+class SG::AuxElement::ConstAccessor<std::vector<double> >
+class SG::AuxElement::ConstAccessor<std::vector<float> >
+class SG::AuxElement::ConstAccessor<std::vector<int> >
+class SG::AuxElement::ConstAccessor<std::vector<long> >
+class SG::AuxElement::ConstAccessor<std::vector<short> >
+class SG::AuxElement::ConstAccessor<std::vector<std::string> >
+class SG::AuxElement::ConstAccessor<std::vector<unsigned char> >
+class SG::AuxElement::ConstAccessor<std::vector<unsigned int> >
+class SG::AuxElement::ConstAccessor<std::vector<unsigned long> >
+class SG::AuxElement::ConstAccessor<std::vector<unsigned short> >
+class SG::AuxElement::ConstAccessor<string>
+class SG::AuxElement::ConstAccessor<unsigned char>
+class SG::AuxElement::ConstAccessor<unsigned int>
+class SG::AuxElement::ConstAccessor<unsigned long>
+class SG::AuxElement::ConstAccessor<unsigned short>
+class SG::AuxElement::ConstAccessor<vector<ULong64_t> >
+class SG::AuxElement::ConstAccessor<vector<bool> >
+class SG::AuxElement::ConstAccessor<vector<char> >
+class SG::AuxElement::ConstAccessor<vector<double> >
+class SG::AuxElement::ConstAccessor<vector<float> >
+class SG::AuxElement::ConstAccessor<vector<int> >
+class SG::AuxElement::ConstAccessor<vector<long> >
+class SG::AuxElement::ConstAccessor<vector<short> >
+class SG::AuxElement::ConstAccessor<vector<string> >
+class SG::AuxElement::ConstAccessor<vector<unsigned char> >
+class SG::AuxElement::ConstAccessor<vector<unsigned int> >
+class SG::AuxElement::ConstAccessor<vector<unsigned long> >
+class SG::AuxElement::ConstAccessor<vector<unsigned short> >
+class SG::AuxElement::Decorator<ULong64_t>
+class SG::AuxElement::Decorator<bool>
+class SG::AuxElement::Decorator<char>
+class SG::AuxElement::Decorator<double>
+class SG::AuxElement::Decorator<float>
+class SG::AuxElement::Decorator<int>
+class SG::AuxElement::Decorator<long>
+class SG::AuxElement::Decorator<short>
+class SG::AuxElement::Decorator<std::string>
+class SG::AuxElement::Decorator<std::vector<ULong64_t> >
+class SG::AuxElement::Decorator<std::vector<bool> >
+class SG::AuxElement::Decorator<std::vector<char> >
+class SG::AuxElement::Decorator<std::vector<double> >
+class SG::AuxElement::Decorator<std::vector<float> >
+class SG::AuxElement::Decorator<std::vector<int> >
+class SG::AuxElement::Decorator<std::vector<long> >
+class SG::AuxElement::Decorator<std::vector<short> >
+class SG::AuxElement::Decorator<std::vector<std::string> >
+class SG::AuxElement::Decorator<std::vector<unsigned char> >
+class SG::AuxElement::Decorator<std::vector<unsigned int> >
+class SG::AuxElement::Decorator<std::vector<unsigned long> >
+class SG::AuxElement::Decorator<std::vector<unsigned short> >
+class SG::AuxElement::Decorator<string>
+class SG::AuxElement::Decorator<unsigned char>
+class SG::AuxElement::Decorator<unsigned int>
+class SG::AuxElement::Decorator<unsigned long>
+class SG::AuxElement::Decorator<unsigned short>
+class SG::AuxElement::Decorator<vector<ULong64_t> >
+class SG::AuxElement::Decorator<vector<bool> >
+class SG::AuxElement::Decorator<vector<char> >
+class SG::AuxElement::Decorator<vector<double> >
+class SG::AuxElement::Decorator<vector<float> >
+class SG::AuxElement::Decorator<vector<int> >
+class SG::AuxElement::Decorator<vector<long> >
+class SG::AuxElement::Decorator<vector<short> >
+class SG::AuxElement::Decorator<vector<string> >
+class SG::AuxElement::Decorator<vector<unsigned char> >
+class SG::AuxElement::Decorator<vector<unsigned int> >
+class SG::AuxElement::Decorator<vector<unsigned long> >
+class SG::AuxElement::Decorator<vector<unsigned short> >
+class SG::AuxElement::TypelessConstAccessor
+class SG::AuxStoreInternal
+class SG::AuxTypeRegistry
+class SG::AuxVectorBase
+class SG::AuxVectorData
+class SG::IAuxElement
+class SG::IAuxSetOption
+class SG::IAuxStore
+class SG::IAuxStoreHolder
+class SG::IAuxStoreIO
+class SG::IAuxTypeVectorFactory
+class SG::IConstAuxStore
+class SG::PackedContainer<char>
+class SG::PackedContainer<double>
+class SG::PackedContainer<float>
+class SG::PackedContainer<int>
+class SG::PackedContainer<short>
+class SG::PackedContainer<std::vector<char> >
+class SG::PackedContainer<std::vector<double> >
+class SG::PackedContainer<std::vector<float> >
+class SG::PackedContainer<std::vector<int> >
+class SG::PackedContainer<std::vector<short> >
+class SG::PackedContainer<std::vector<std::vector<char> > >
+class SG::PackedContainer<std::vector<std::vector<double> > >
+class SG::PackedContainer<std::vector<std::vector<float> > >
+class SG::PackedContainer<std::vector<std::vector<int> > >
+class SG::PackedContainer<std::vector<std::vector<short> > >
+class SG::PackedContainer<std::vector<std::vector<unsigned char> > >
+class SG::PackedContainer<std::vector<std::vector<unsigned int> > >
+class SG::PackedContainer<std::vector<std::vector<unsigned short> > >
+class SG::PackedContainer<std::vector<unsigned char> >
+class SG::PackedContainer<std::vector<unsigned int> >
+class SG::PackedContainer<std::vector<unsigned short> >
+class SG::PackedContainer<unsigned char>
+class SG::PackedContainer<unsigned int>
+class SG::PackedContainer<unsigned short>
+class SG::PackedContainer<vector<char> >
+class SG::PackedContainer<vector<double> >
+class SG::PackedContainer<vector<float> >
+class SG::PackedContainer<vector<int> >
+class SG::PackedContainer<vector<short> >
+class SG::PackedContainer<vector<unsigned char> >
+class SG::PackedContainer<vector<unsigned int> >
+class SG::PackedContainer<vector<unsigned short> >
+class SG::PackedContainer<vector<vector<char> > >
+class SG::PackedContainer<vector<vector<double> > >
+class SG::PackedContainer<vector<vector<float> > >
+class SG::PackedContainer<vector<vector<int> > >
+class SG::PackedContainer<vector<vector<short> > >
+class SG::PackedContainer<vector<vector<unsigned char> > >
+class SG::PackedContainer<vector<vector<unsigned int> > >
+class SG::PackedContainer<vector<vector<unsigned short> > >
+class SG::PackedParameters
+class SG::auxid_set_t
+class SG::hashtable<unsigned long,unsigned long,allocator<unsigned long>,CxxUtils_Internal::identity<unsigned long>,equal_to<unsigned long>,SG::hash<unsigned long>,CxxUtils_Internal::mod_range_hashing,CxxUtils_Internal::default_ranged_hash,CxxUtils_Internal::prime_rehash_policy,false,true,true>
+class SG::unordered_set<unsigned long,SG::hash<unsigned long>,equal_to<unsigned long>,allocator<unsigned long>,false>
+class UserDataStore
+class allocator<CxxUtils_Internal::hash_node<unsigned long,false> >
+class allocator<CxxUtils_Internal::hash_node<unsigned long,false>*>
+class allocator<unsigned long>
+class equal_to<unsigned long>
+class pair<CxxUtils_Internal::hashtable_iterator<unsigned long,true,false>,bool>
+header AthContainersInterfaces/AuxDataOption.h
+header AthContainers/AuxElement.h
+header AthContainers/AuxStoreInternal.h
+header AthContainers/AuxTypeRegistry.h
+header AthContainers/AuxVectorBase.h
+header AthContainers/AuxVectorData.h
+header AthContainersInterfaces/IAuxElement.h
+header AthContainersInterfaces/IAuxSetOption.h
+header AthContainersInterfaces/IAuxStore.h
+header AthContainersInterfaces/IAuxStoreHolder.h
+header AthContainersInterfaces/IAuxStoreIO.h
+header AthContainersInterfaces/IAuxTypeVectorFactory.h
+header AthContainersInterfaces/IConstAuxStore.h
+header AthContainers/PackedParameters.h
+header AthContainers/UserDataStore.h
+# List of selected typedefs and outer classes
+# List of selected enums and outer classes
+enum SG::OwnershipPolicy

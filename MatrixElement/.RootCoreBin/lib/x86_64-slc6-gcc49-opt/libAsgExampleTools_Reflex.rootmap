@@ -1,0 +1,9 @@
+{ decls }
+namespace asg {  }
+
+[ libAsgExampleTools_Reflex.so ]
+# List of selected classes
+class asg::UnitTestTool1A
+class asg::UnitTestTool2
+header AsgExampleTools/UnitTestTool1A.h
+header AsgExampleTools/UnitTestTool2.h

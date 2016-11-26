@@ -1,0 +1,38 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class EventInfo_v1; }
+template <typename STORABLE> class DataLink;
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+
+[ libxAODEventInfo_Reflex.so ]
+# List of selected classes
+class DataLink<xAOD::EventInfo_v1>
+class DataVector<xAOD::EventInfo_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::EventInfo_v1>
+class ElementLink<DataVector<xAOD::EventInfo_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::EventInfo_v1> >
+class ElementLink<xAOD::EventInfoContainer_v1>
+class set<uint32_t>
+class set<unsigned int>
+class vector<DataLink<xAOD::EventInfo_v1> >
+class vector<ElementLink<DataVector<xAOD::EventInfo_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::EventInfo_v1> > >
+class vector<ElementLink<xAOD::EventInfoContainer_v1> >
+class vector<pair<string,string> >
+class vector<set<unsigned int> >
+class vector<std::pair<std::string,std::string> >
+class vector<std::set<uint32_t> >
+class vector<std::vector<ElementLink<xAOD::EventInfoContainer_v1> > >
+class vector<std::vector<std::pair<std::string,std::string> > >
+class vector<vector<ElementLink<DataVector<xAOD::EventInfo_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::EventInfo_v1> > > >
+class vector<vector<pair<string,string> > >
+class xAOD::EventAuxInfo_v1
+class xAOD::EventInfoAuxContainer_v1
+class xAOD::EventInfoContainer_v1
+class xAOD::EventInfo_v1
+header xAODEventInfo/versions/EventAuxInfo_v1.h
+header xAODEventInfo/versions/EventInfoAuxContainer_v1.h
+header xAODEventInfo/versions/EventInfo_v1.h
+# List of selected typedefs and outer classes

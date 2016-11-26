@@ -1,0 +1,4 @@
+[ libDiTauMassTools_Reflex.so ]
+# List of selected classes
+class MissingMassTool
+header DiTauMassTools/MissingMassTool.h

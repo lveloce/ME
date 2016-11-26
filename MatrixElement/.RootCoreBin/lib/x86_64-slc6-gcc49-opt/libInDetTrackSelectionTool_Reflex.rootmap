@@ -1,0 +1,7 @@
+{ decls }
+namespace InDet {  }
+
+[ libInDetTrackSelectionTool_Reflex.so ]
+# List of selected classes
+class InDet::InDetTrackSelectionTool
+header InDetTrackSelectionTool/InDetTrackSelectionTool.h

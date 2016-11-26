@@ -1,0 +1,4 @@
+[ libJetCalibTools_Reflex.so ]
+# List of selected classes
+class JetCalibrationTool
+header JetCalibTools/JetCalibrationTool.h

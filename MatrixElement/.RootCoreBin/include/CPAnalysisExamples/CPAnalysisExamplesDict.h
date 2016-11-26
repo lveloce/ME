@@ -1,0 +1,7 @@
+
+#ifndef CPANALYSISEXAMPLES_CPANALYSISEXAMPLESDICT_H
+#define CPANALYSISEXAMPLES_CPANALYSISEXAMPLESDICT_H
+
+#include "CPAnalysisExamples/MetadataToolExample.h"
+
+#endif

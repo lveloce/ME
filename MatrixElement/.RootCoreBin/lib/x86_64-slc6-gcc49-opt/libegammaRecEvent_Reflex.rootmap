@@ -1,0 +1,11 @@
+{ decls }
+class egammaRec;
+
+[ libegammaRecEvent_Reflex.so ]
+# List of selected classes
+class DataVector<egammaRec,DataModel_detail::NoBase>
+class DataVector<egammaRec>
+class EgammaRecContainer
+class egammaRec
+header egammaRecEvent/egammaRec.h
+# List of selected typedefs and outer classes

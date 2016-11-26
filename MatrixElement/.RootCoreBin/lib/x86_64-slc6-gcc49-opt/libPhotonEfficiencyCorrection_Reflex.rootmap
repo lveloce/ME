@@ -1,0 +1,11 @@
+{ decls }
+namespace Root {  }
+
+[ libPhotonEfficiencyCorrection_Reflex.so ]
+# List of selected classes
+class AsgPhotonEfficiencyCorrectionTool
+class IAsgPhotonEfficiencyCorrectionTool
+class Root::TPhotonEfficiencyCorrectionTool
+header PhotonEfficiencyCorrection/AsgPhotonEfficiencyCorrectionTool.h
+header PhotonEfficiencyCorrection/IAsgPhotonEfficiencyCorrectionTool.h
+header PhotonEfficiencyCorrection/TPhotonEfficiencyCorrectionTool.h

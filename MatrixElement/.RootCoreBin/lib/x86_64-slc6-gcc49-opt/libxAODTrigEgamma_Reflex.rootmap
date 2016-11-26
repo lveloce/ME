@@ -1,0 +1,61 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class TrigPhoton_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+namespace xAOD { class TrigElectron_v1; }
+template <typename T, typename BASE> class DataVector;
+template <typename STORABLE> class ElementLink;
+
+[ libxAODTrigEgamma_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::TrigElectron_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::TrigElectron_v1> >
+class DataLink<DataVector<xAOD::TrigPhoton_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::TrigPhoton_v1> >
+class DataLink<xAOD::TrigElectronContainer_v1>
+class DataLink<xAOD::TrigPhotonContainer_v1>
+class DataVector<xAOD::TrigElectron_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::TrigElectron_v1>
+class DataVector<xAOD::TrigPhoton_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::TrigPhoton_v1>
+class ElementLink<DataVector<xAOD::TrigElectron_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::TrigElectron_v1> >
+class ElementLink<DataVector<xAOD::TrigPhoton_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::TrigPhoton_v1> >
+class ElementLink<xAOD::TrigElectronContainer_v1>
+class ElementLink<xAOD::TrigPhotonContainer_v1>
+class vector<DataLink<DataVector<xAOD::TrigElectron_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::TrigElectron_v1> > >
+class vector<DataLink<DataVector<xAOD::TrigPhoton_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::TrigPhoton_v1> > >
+class vector<DataLink<xAOD::TrigElectronContainer_v1> >
+class vector<DataLink<xAOD::TrigPhotonContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::TrigElectron_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::TrigElectron_v1> > >
+class vector<ElementLink<DataVector<xAOD::TrigPhoton_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::TrigPhoton_v1> > >
+class vector<ElementLink<xAOD::TrigElectronContainer_v1> >
+class vector<ElementLink<xAOD::TrigPhotonContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::TrigElectronContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TrigPhotonContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigElectron_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigElectron_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigPhoton_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::TrigPhoton_v1> > > >
+class xAOD::ElectronTrigAuxContainer_v1
+class xAOD::PhotonTrigAuxContainer_v1
+class xAOD::TrigElectronAuxContainer_v1
+class xAOD::TrigElectronContainer_v1
+class xAOD::TrigElectron_v1
+class xAOD::TrigPhotonAuxContainer_v1
+class xAOD::TrigPhotonContainer_v1
+class xAOD::TrigPhoton_v1
+header xAODTrigEgamma/versions/ElectronTrigAuxContainer_v1.h
+header xAODTrigEgamma/versions/PhotonTrigAuxContainer_v1.h
+header xAODTrigEgamma/versions/TrigElectronAuxContainer_v1.h
+header xAODTrigEgamma/versions/TrigElectron_v1.h
+header xAODTrigEgamma/versions/TrigPhotonAuxContainer_v1.h
+header xAODTrigEgamma/versions/TrigPhoton_v1.h
+# List of selected typedefs and outer classes

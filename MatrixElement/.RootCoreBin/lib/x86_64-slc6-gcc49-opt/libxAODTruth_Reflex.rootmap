@@ -1,0 +1,87 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class TruthEventBase_v1; }
+namespace xAOD { class TruthParticle_v1; }
+namespace xAOD { class TruthVertex_v1; }
+namespace xAOD { class TruthEvent_v1; }
+namespace xAOD { class TruthPileupEvent_v1; }
+namespace xAOD { class TruthMetaData_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+template <typename T, typename BASE> class DataVector;
+template <typename STORABLE> class ElementLink;
+
+[ libxAODTruth_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::TruthParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::TruthParticle_v1> >
+class DataLink<DataVector<xAOD::TruthVertex_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::TruthVertex_v1> >
+class DataLink<xAOD::TruthParticleContainer_v1>
+class DataLink<xAOD::TruthVertexContainer_v1>
+class DataVector<xAOD::TruthEventBase_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TruthEventBase_v1>
+class DataVector<xAOD::TruthEvent_v1,DataVector<xAOD::TruthEventBase_v1,DataModel_detail::NoBase> >
+class DataVector<xAOD::TruthEvent_v1>
+class DataVector<xAOD::TruthMetaData_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TruthMetaData_v1>
+class DataVector<xAOD::TruthParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::TruthParticle_v1>
+class DataVector<xAOD::TruthPileupEvent_v1,DataVector<xAOD::TruthEventBase_v1,DataModel_detail::NoBase> >
+class DataVector<xAOD::TruthPileupEvent_v1>
+class DataVector<xAOD::TruthVertex_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::TruthVertex_v1>
+class ElementLink<DataVector<xAOD::TruthParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::TruthParticle_v1> >
+class ElementLink<DataVector<xAOD::TruthVertex_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::TruthVertex_v1> >
+class ElementLink<xAOD::TruthParticleContainer_v1>
+class ElementLink<xAOD::TruthVertexContainer_v1>
+class vector<DataLink<DataVector<xAOD::TruthParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::TruthParticle_v1> > >
+class vector<DataLink<DataVector<xAOD::TruthVertex_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::TruthVertex_v1> > >
+class vector<DataLink<xAOD::TruthParticleContainer_v1> >
+class vector<DataLink<xAOD::TruthVertexContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::TruthParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::TruthParticle_v1> > >
+class vector<ElementLink<DataVector<xAOD::TruthVertex_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::TruthVertex_v1> > >
+class vector<ElementLink<xAOD::TruthParticleContainer_v1> >
+class vector<ElementLink<xAOD::TruthVertexContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::TruthParticleContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::TruthVertexContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::TruthParticle_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::TruthParticle_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TruthVertex_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::TruthVertex_v1> > > >
+class xAOD::TruthEventAuxContainer_v1
+class xAOD::TruthEventBaseContainer_v1
+class xAOD::TruthEventBase_v1
+class xAOD::TruthEventContainer_v1
+class xAOD::TruthEvent_v1
+class xAOD::TruthEvent_v1::PdfInfo
+class xAOD::TruthMetaDataAuxContainer_v1
+class xAOD::TruthMetaDataContainer_v1
+class xAOD::TruthParticleAuxContainer_v1
+class xAOD::TruthParticleContainer_v1
+class xAOD::TruthParticle_v1
+class xAOD::TruthParticle_v1::Polarization
+class xAOD::TruthPileupEventAuxContainer_v1
+class xAOD::TruthPileupEventContainer_v1
+class xAOD::TruthPileupEvent_v1
+class xAOD::TruthVertexAuxContainer_v1
+class xAOD::TruthVertexContainer_v1
+class xAOD::TruthVertex_v1
+header xAODTruth/versions/TruthEventAuxContainer_v1.h
+header xAODTruth/versions/TruthEventBase_v1.h
+header xAODTruth/versions/TruthEvent_v1.h
+header xAODTruth/versions/TruthMetaDataAuxContainer_v1.h
+header xAODTruth/versions/TruthParticleAuxContainer_v1.h
+header xAODTruth/versions/TruthParticle_v1.h
+header xAODTruth/versions/TruthPileupEventAuxContainer_v1.h
+header xAODTruth/versions/TruthPileupEvent_v1.h
+header xAODTruth/versions/TruthVertexAuxContainer_v1.h
+header xAODTruth/versions/TruthVertex_v1.h
+# List of selected typedefs and outer classes

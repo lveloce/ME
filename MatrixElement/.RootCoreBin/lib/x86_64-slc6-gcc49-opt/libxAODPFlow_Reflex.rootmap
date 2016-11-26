@@ -1,0 +1,43 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class PFO_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+
+[ libxAODPFlow_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::PFO_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::PFO_v1> >
+class DataLink<xAOD::PFOContainer_v1>
+class DataVector<xAOD::PFO_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::PFO_v1>
+class ElementLink<DataVector<xAOD::PFO_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::PFO_v1> >
+class ElementLink<xAOD::PFOContainer_v1>
+class vector<DataLink<DataVector<xAOD::PFO_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::PFO_v1> > >
+class vector<DataLink<xAOD::PFOContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::IParticle> > >
+class vector<ElementLink<DataVector<xAOD::PFO_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::PFO_v1> > >
+class vector<ElementLink<xAOD::IParticleContainer> >
+class vector<ElementLink<xAOD::PFOContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::IParticleContainer> > >
+class vector<std::vector<ElementLink<xAOD::PFOContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::IParticle> > > >
+class vector<vector<ElementLink<DataVector<xAOD::PFO_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::PFO_v1> > > >
+class vector<xAOD::PFODetails::PFOLeptonType>
+class xAOD::PFOAuxContainer_v1
+class xAOD::PFOContainer_v1
+class xAOD::PFO_v1
+header xAODPFlow/versions/PFOAuxContainer_v1.h
+header xAODPFlow/versions/PFO_v1.h
+# List of selected typedefs and outer classes
+# List of selected enums and outer classes
+enum xAOD::PFODetails::PFOAttributes
+enum xAOD::PFODetails::PFOParticleType
+enum xAOD::PFODetails::PFOLeptonType

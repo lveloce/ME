@@ -1,0 +1,43 @@
+<lcgdict>
+
+  <!-- AssociationUtils tools -->
+  <class name="ORUtils::IOverlapRemovalTool"/>
+  <class name="ORUtils::OverlapRemovalTool"/>
+  <class name="ORUtils::BaseOverlapTool"/>
+  <class name="ORUtils::DeltaROverlapTool"/>
+  <class name="ORUtils::EleEleOverlapTool"/>
+  <class name="ORUtils::EleJetOverlapTool"/>
+  <class name="ORUtils::EleMuSharedTrkOverlapTool"/>
+  <class name="ORUtils::MuJetOverlapTool"/>
+  <class name="ORUtils::AltMuJetOverlapTool"/>
+  <class name="ORUtils::TauLooseEleOverlapTool"/>
+  <class name="ORUtils::TauLooseMuOverlapTool"/>
+  <class name="ORUtils::TauJetOverlapTool"/>
+  <class name="ORUtils::TauAntiTauJetOverlapTool"/>
+  <class name="ORUtils::ObjLinkOverlapTool"/>
+
+  <!-- Legacy tools -->
+  <class name="IOverlapRemovalTool"/>
+  <class name="OverlapRemovalTool"/>
+
+  <!-- Helpers -->
+  <class name="ORUtils::ToolBox"/>
+  <class name="ORUtils::ToolBoxBase"/>
+  <class name="ORUtils::ORToolBox"/>
+  <class name="ORUtils::BJetHelper"/>
+  <class name="ORUtils::DeltaRMatcher"/>
+  <class name="ORUtils::SlidingDeltaRMatcher"/>
+  <class name="ORUtils::MuJetGhostDRMatcher"/>
+  <class name="ORUtils::OverlapDecorationHelper"/>
+  <class name="ORUtils::OverlapLinkHelper"/>
+
+  <!-- Suppress the unwanted classes found by ROOT 6. -->
+  <!-- Hopefully we can remove these extra lines at one point... -->
+  <exclusion>
+    <class name="SG::IConstAuxStore" />
+    <class name="DataLink<SG::IConstAuxStore>" />
+    <class name="DataVector<xAOD::IParticle>" />
+    <class name="ElementLink<DataVector<xAOD::IParticle> >" />
+  </exclusion>
+
+</lcgdict>

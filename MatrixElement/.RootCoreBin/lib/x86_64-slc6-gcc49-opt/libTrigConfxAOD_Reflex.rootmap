@@ -1,0 +1,7 @@
+{ decls }
+namespace TrigConf {  }
+
+[ libTrigConfxAOD_Reflex.so ]
+# List of selected classes
+class TrigConf::xAODConfigTool
+header TrigConfxAOD/xAODConfigTool.h

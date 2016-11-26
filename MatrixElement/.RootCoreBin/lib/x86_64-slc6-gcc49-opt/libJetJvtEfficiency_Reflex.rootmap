@@ -1,0 +1,9 @@
+{ decls }
+namespace CP {  }
+
+[ libJetJvtEfficiency_Reflex.so ]
+# List of selected classes
+class CP::IJetJvtEfficiency
+class CP::JetJvtEfficiency
+header JetJvtEfficiency/IJetJvtEfficiency.h
+header JetJvtEfficiency/JetJvtEfficiency.h

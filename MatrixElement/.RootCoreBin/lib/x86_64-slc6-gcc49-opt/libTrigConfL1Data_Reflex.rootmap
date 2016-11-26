@@ -1,0 +1,13 @@
+{ decls }
+namespace TrigConf {  }
+
+[ libTrigConfL1Data_Reflex.so ]
+# List of selected classes
+class TrigConf::CTPConfig
+class TrigConf::L1DataBaseclass
+class TrigConf::ThresholdConfig
+class TrigConf::TrigConfData
+header TrigConfL1Data/CTPConfig.h
+header TrigConfL1Data/L1DataBaseclass.h
+header TrigConfL1Data/ThresholdConfig.h
+header TrigConfL1Data/TrigConfData.h

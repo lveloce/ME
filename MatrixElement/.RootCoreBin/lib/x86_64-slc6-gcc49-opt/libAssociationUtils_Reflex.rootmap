@@ -1,0 +1,53 @@
+{ decls }
+namespace ORUtils {  }
+
+[ libAssociationUtils_Reflex.so ]
+# List of selected classes
+class IOverlapRemovalTool
+class ORUtils::AltMuJetOverlapTool
+class ORUtils::BJetHelper
+class ORUtils::BaseOverlapTool
+class ORUtils::DeltaRMatcher
+class ORUtils::DeltaROverlapTool
+class ORUtils::EleEleOverlapTool
+class ORUtils::EleJetOverlapTool
+class ORUtils::EleMuSharedTrkOverlapTool
+class ORUtils::IOverlapRemovalTool
+class ORUtils::MuJetGhostDRMatcher
+class ORUtils::MuJetOverlapTool
+class ORUtils::ORToolBox
+class ORUtils::ObjLinkOverlapTool
+class ORUtils::OverlapDecorationHelper
+class ORUtils::OverlapLinkHelper
+class ORUtils::OverlapRemovalTool
+class ORUtils::SlidingDeltaRMatcher
+class ORUtils::TauAntiTauJetOverlapTool
+class ORUtils::TauJetOverlapTool
+class ORUtils::TauLooseEleOverlapTool
+class ORUtils::TauLooseMuOverlapTool
+class ORUtils::ToolBox
+class ORUtils::ToolBoxBase
+class OverlapRemovalTool
+header AssociationUtils/IOverlapRemovalToolLegacy.h
+header AssociationUtils/AltMuJetOverlapTool.h
+header AssociationUtils/BJetHelper.h
+header AssociationUtils/BaseOverlapTool.h
+header AssociationUtils/DeltaRMatcher.h
+header AssociationUtils/DeltaROverlapTool.h
+header AssociationUtils/EleEleOverlapTool.h
+header AssociationUtils/EleJetOverlapTool.h
+header AssociationUtils/EleMuSharedTrkOverlapTool.h
+header AssociationUtils/IOverlapRemovalTool.h
+header AssociationUtils/MuJetGhostDRMatcher.h
+header AssociationUtils/MuJetOverlapTool.h
+header AssociationUtils/ORToolBox.h
+header AssociationUtils/ObjLinkOverlapTool.h
+header AssociationUtils/OverlapDecorationHelper.h
+header AssociationUtils/OverlapLinkHelper.h
+header AssociationUtils/OverlapRemovalTool.h
+header AssociationUtils/TauAntiTauJetOverlapTool.h
+header AssociationUtils/TauJetOverlapTool.h
+header AssociationUtils/TauLooseEleOverlapTool.h
+header AssociationUtils/TauLooseMuOverlapTool.h
+header AssociationUtils/ToolBox.h
+header AssociationUtils/OverlapRemovalToolLegacy.h

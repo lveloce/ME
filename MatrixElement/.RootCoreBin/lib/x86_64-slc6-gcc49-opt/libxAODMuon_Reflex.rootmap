@@ -1,0 +1,85 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class Muon_v1; }
+namespace xAOD { class IParticle; }
+namespace std {  }
+namespace DataModel_detail { class NoBase; }
+namespace xAOD { class MuonSegment_v1; }
+template <typename T, typename BASE> class DataVector;
+template <typename STORABLE> class ElementLink;
+namespace xAOD { class SlowMuon_v1; }
+template <typename STORABLE> class DataLink;
+
+[ libxAODMuon_Reflex.so ]
+# List of selected classes
+class DataLink<DataVector<xAOD::MuonSegment_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::MuonSegment_v1> >
+class DataLink<DataVector<xAOD::Muon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class DataLink<DataVector<xAOD::Muon_v1> >
+class DataLink<DataVector<xAOD::SlowMuon_v1,DataModel_detail::NoBase> >
+class DataLink<DataVector<xAOD::SlowMuon_v1> >
+class DataLink<xAOD::MuonContainer_v1>
+class DataLink<xAOD::MuonSegmentContainer_v1>
+class DataLink<xAOD::SlowMuonContainer_v1>
+class DataVector<xAOD::MuonSegment_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::MuonSegment_v1>
+class DataVector<xAOD::Muon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> >
+class DataVector<xAOD::Muon_v1>
+class DataVector<xAOD::SlowMuon_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::SlowMuon_v1>
+class ElementLink<DataVector<xAOD::MuonSegment_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::MuonSegment_v1> >
+class ElementLink<DataVector<xAOD::Muon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > >
+class ElementLink<DataVector<xAOD::Muon_v1> >
+class ElementLink<DataVector<xAOD::SlowMuon_v1,DataModel_detail::NoBase> >
+class ElementLink<DataVector<xAOD::SlowMuon_v1> >
+class ElementLink<xAOD::MuonContainer_v1>
+class ElementLink<xAOD::MuonSegmentContainer_v1>
+class ElementLink<xAOD::SlowMuonContainer_v1>
+class vector<DataLink<DataVector<xAOD::MuonSegment_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::MuonSegment_v1> > >
+class vector<DataLink<DataVector<xAOD::Muon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<DataLink<DataVector<xAOD::Muon_v1> > >
+class vector<DataLink<DataVector<xAOD::SlowMuon_v1,DataModel_detail::NoBase> > >
+class vector<DataLink<DataVector<xAOD::SlowMuon_v1> > >
+class vector<DataLink<xAOD::MuonContainer_v1> >
+class vector<DataLink<xAOD::MuonSegmentContainer_v1> >
+class vector<DataLink<xAOD::SlowMuonContainer_v1> >
+class vector<ElementLink<DataVector<xAOD::MuonSegment_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::MuonSegment_v1> > >
+class vector<ElementLink<DataVector<xAOD::Muon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > >
+class vector<ElementLink<DataVector<xAOD::Muon_v1> > >
+class vector<ElementLink<DataVector<xAOD::SlowMuon_v1,DataModel_detail::NoBase> > >
+class vector<ElementLink<DataVector<xAOD::SlowMuon_v1> > >
+class vector<ElementLink<xAOD::MuonContainer_v1> >
+class vector<ElementLink<xAOD::MuonSegmentContainer_v1> >
+class vector<ElementLink<xAOD::SlowMuonContainer_v1> >
+class vector<std::vector<ElementLink<xAOD::MuonContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::MuonSegmentContainer_v1> > >
+class vector<std::vector<ElementLink<xAOD::SlowMuonContainer_v1> > >
+class vector<vector<ElementLink<DataVector<xAOD::MuonSegment_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::MuonSegment_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::Muon_v1,DataVector<xAOD::IParticle,DataModel_detail::NoBase> > > > >
+class vector<vector<ElementLink<DataVector<xAOD::Muon_v1> > > >
+class vector<vector<ElementLink<DataVector<xAOD::SlowMuon_v1,DataModel_detail::NoBase> > > >
+class vector<vector<ElementLink<DataVector<xAOD::SlowMuon_v1> > > >
+class xAOD::MuonAuxContainer_v1
+class xAOD::MuonAuxContainer_v2
+class xAOD::MuonAuxContainer_v3
+class xAOD::MuonContainer_v1
+class xAOD::MuonSegmentAuxContainer_v1
+class xAOD::MuonSegmentContainer_v1
+class xAOD::MuonSegment_v1
+class xAOD::Muon_v1
+class xAOD::SlowMuonAuxContainer_v1
+class xAOD::SlowMuonContainer_v1
+class xAOD::SlowMuon_v1
+header xAODMuon/versions/MuonAuxContainer_v1.h
+header xAODMuon/versions/MuonAuxContainer_v2.h
+header xAODMuon/versions/MuonAuxContainer_v3.h
+header xAODMuon/versions/MuonSegmentAuxContainer_v1.h
+header xAODMuon/versions/MuonSegment_v1.h
+header xAODMuon/versions/Muon_v1.h
+header xAODMuon/versions/SlowMuonAuxContainer_v1.h
+header xAODMuon/versions/SlowMuon_v1.h
+# List of selected typedefs and outer classes

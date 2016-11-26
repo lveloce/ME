@@ -1,0 +1,19 @@
+{ decls }
+namespace CP {  }
+
+[ libIsolationSelection_Reflex.so ]
+# List of selected classes
+class CP::IIsolationSelectionTool
+class CP::IsolationCondition
+class CP::IsolationConditionFormula
+class CP::IsolationConditionHist
+class CP::IsolationSelectionTool
+class CP::IsolationWP
+class Interp3D
+header IsolationSelection/IIsolationSelectionTool.h
+header IsolationSelection/IsolationCondition.h
+header IsolationSelection/IsolationConditionFormula.h
+header IsolationSelection/IsolationConditionHist.h
+header IsolationSelection/IsolationSelectionTool.h
+header IsolationSelection/IsolationWP.h
+header IsolationSelection/Interp3D.h

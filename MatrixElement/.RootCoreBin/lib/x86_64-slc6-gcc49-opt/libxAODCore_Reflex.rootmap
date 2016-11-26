@@ -1,0 +1,34 @@
+{ decls }
+namespace xAOD {  }
+namespace xAOD { class TDVCollectionProxyDummy; }
+namespace std {  }
+
+[ libxAODCore_Reflex.so ]
+# List of selected classes
+class DataVector<xAOD::TDVCollectionProxyDummy,DataModel_detail::NoBase>
+class DataVector<xAOD::TDVCollectionProxyDummy>
+class vector<ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> > >
+class vector<char>
+class vector<signed char>
+class vector<std::vector<char> >
+class vector<std::vector<signed char> >
+class vector<std::vector<uint32_t> >
+class vector<std::vector<unsigned char> >
+class vector<uint32_t>
+class vector<unsigned char>
+class vector<unsigned int>
+class vector<vector<char> >
+class vector<vector<signed char> >
+class vector<vector<unsigned char> >
+class vector<vector<unsigned int> >
+class xAOD::AuxContainerBase
+class xAOD::AuxInfoBase
+class xAOD::ShallowAuxContainer
+class xAOD::ShallowAuxInfo
+class xAOD::TDVCollectionProxy
+class xAOD::TDVCollectionProxyDummy
+header xAODCore/AuxContainerBase.h
+header xAODCore/AuxInfoBase.h
+header xAODCore/ShallowAuxContainer.h
+header xAODCore/ShallowAuxInfo.h
+header xAODCore/tools/TDVCollectionProxy.h

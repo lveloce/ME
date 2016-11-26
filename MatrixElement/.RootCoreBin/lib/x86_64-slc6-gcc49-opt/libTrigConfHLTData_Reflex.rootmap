@@ -1,0 +1,30 @@
+{ decls }
+namespace std {  }
+namespace TrigConf {  }
+
+[ libTrigConfHLTData_Reflex.so ]
+# List of selected classes
+class TrigConf::HLTChain
+class TrigConf::HLTPrescale
+class TrigConf::HLTPrescaleSet
+class TrigConf::HLTPrescaleSetCollection
+class TrigConf::HLTSequence
+class TrigConf::HLTSignature
+class TrigConf::HLTStreamTag
+class TrigConf::HLTTriggerElement
+class TrigConf::HLTTriggerType
+class vector<TrigConf::HLTChain*>
+class vector<TrigConf::HLTSequence*>
+class vector<TrigConf::HLTSignature*>
+class vector<TrigConf::HLTStreamTag*>
+class vector<TrigConf::HLTTriggerElement*>
+class vector<TrigConf::HLTTriggerType*>
+header TrigConfHLTData/HLTChain.h
+header TrigConfHLTData/HLTPrescale.h
+header TrigConfHLTData/HLTPrescaleSet.h
+header TrigConfHLTData/HLTPrescaleSetCollection.h
+header TrigConfHLTData/HLTSequence.h
+header TrigConfHLTData/HLTSignature.h
+header TrigConfHLTData/HLTStreamTag.h
+header TrigConfHLTData/HLTTriggerElement.h
+header TrigConfHLTData/HLTTriggerType.h

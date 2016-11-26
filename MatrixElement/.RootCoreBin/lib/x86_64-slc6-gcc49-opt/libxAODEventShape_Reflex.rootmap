@@ -1,0 +1,9 @@
+{ decls }
+namespace xAOD {  }
+
+[ libxAODEventShape_Reflex.so ]
+# List of selected classes
+class xAOD::EventShapeAuxInfo_v1
+class xAOD::EventShape_v1
+header xAODEventShape/versions/EventShapeAuxInfo_v1.h
+header xAODEventShape/versions/EventShape_v1.h

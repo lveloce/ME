@@ -1,0 +1,9 @@
+{ decls }
+namespace xAOD {  }
+
+[ libxAODMetaData_Reflex.so ]
+# List of selected classes
+class xAOD::FileMetaDataAuxInfo_v1
+class xAOD::FileMetaData_v1
+header xAODMetaData/versions/FileMetaDataAuxInfo_v1.h
+header xAODMetaData/versions/FileMetaData_v1.h

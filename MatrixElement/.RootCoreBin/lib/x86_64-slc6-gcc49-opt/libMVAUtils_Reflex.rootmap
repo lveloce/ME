@@ -1,0 +1,9 @@
+{ decls }
+namespace MVAUtils {  }
+
+[ libMVAUtils_Reflex.so ]
+# List of selected classes
+class MVAUtils::BDT
+class MVAUtils::Node
+header MVAUtils/BDT.h
+header MVAUtils/Node.h

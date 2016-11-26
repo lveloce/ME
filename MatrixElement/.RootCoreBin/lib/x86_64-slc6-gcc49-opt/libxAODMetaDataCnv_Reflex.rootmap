@@ -1,0 +1,7 @@
+{ decls }
+namespace xAODMaker {  }
+
+[ libxAODMetaDataCnv_Reflex.so ]
+# List of selected classes
+class xAODMaker::FileMetaDataTool
+header xAODMetaDataCnv/FileMetaDataTool.h

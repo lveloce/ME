@@ -1,0 +1,7 @@
+{ decls }
+namespace xAODMaker {  }
+
+[ libxAODTriggerCnv_Reflex.so ]
+# List of selected classes
+class xAODMaker::TriggerMenuMetaDataTool
+header xAODTriggerCnv/TriggerMenuMetaDataTool.h
