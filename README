@@ -7,7 +7,7 @@ Contact: lveloce@physics.utoronto.ca
 This code uses the MadgraphME package to calculate matrix elements and optimal observables for a given set of input data.
 
 1. In the home directory, type the following to run the code:
-	> rcSetup (uses version 2.4.14)
+	> rcsetup Base,2.4.14
 	> rc find_packages
 	> rc compile
 	> run any of the executables in the MatrixElement/util/ folder by typing in their name. 
